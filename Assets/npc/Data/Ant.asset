@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a278d249b1987cf4ebdb60bb4769bf33, type: 3}
+  m_Name: Ant
+  m_EditorClassIdentifier: 
+  id: 
+  defaultTitle: first Quest Bear
+  languageSpecificTitles: []
+  defaultDescription: I am Lost Can you find my Family
+  languageSpecificDescriptions: []
+  category: 
+  icon: {fileID: 0}
+  requirement:
+    character: {fileID: 0}
+    level: 0
+    completedQuests: []
+  tasks:
+  - taskType: 2
+    monsterCharacterAmount:
+      monster: {fileID: 0}
+      amount: 0
+    itemAmount:
+      item: {fileID: 0}
+      amount: 0
+    doNotDecreaseItemsOnQuestComplete: 0
+    npcEntity: {fileID: 4122763396024675756, guid: 1ab1caed07d935b4eb883ecda1b95793,
+      type: 3}
+    talkToNpcDialog: {fileID: 11400000, guid: 598c8a0178a5fe6479fdd9daa9d1073f, type: 2}
+    completeAfterTalked: 0
+    customQuestTask: {fileID: 0}
+  abandonQuests: []
+  resetAttributes: 0
+  resetSkills: 0
+  changeCharacterClass: {fileID: 0}
+  rewardExp: 100
+  rewardGold: 100
+  rewardCurrencies: []
+  rewardItems: []
+  selectableRewardItems: []
+  randomRewardItems: []
+  canRepeat: 0
