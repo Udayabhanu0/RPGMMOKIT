@@ -75,18 +75,22 @@ MonoBehaviour:
     amount:
       baseAmount: 30
       amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
   - attribute: {fileID: 11400000, guid: cf50e3647cfae0e44b683163d2171277, type: 2}
     amount:
       baseAmount: 25
       amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
   - attribute: {fileID: 11400000, guid: c7e3824f99bb4bc43b9566210f8d02f5, type: 2}
     amount:
       baseAmount: 20
       amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
   - attribute: {fileID: 11400000, guid: cd3d2fb4f3c67fd4dbba3bd0ccd0095e, type: 2}
     amount:
       baseAmount: 15
       amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
   resistances: []
   armors: []
   skillLevels:
@@ -110,7 +114,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e43af8a3a8f9a7a478dc243c7b15ff5f, type: 2}
   - {fileID: 11400000, guid: f913fbdc47f19a4408bc793331f9583a, type: 2}
   startItems: []
-  startMap: {fileID: 0}
+  startMap: {fileID: 11400000, guid: 81e4730004ac7574c8d1e3696814835f, type: 2}
   useOverrideStartPosition: 0
   overrideStartPosition: {x: 0, y: 0, z: 0}
   useOverrideStartRotation: 0

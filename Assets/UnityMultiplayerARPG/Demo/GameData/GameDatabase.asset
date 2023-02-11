@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: GameDatabase
   m_EditorClassIdentifier: 
   playerCharacterEntities:
-  - {fileID: 1568101473403400800, guid: 77d9f1c7e9ddffb4fa8ee49cbe4b58c3, type: 3}
   - {fileID: 114586576023340800, guid: 0f0836d25b5171245a4c66deb284f48d, type: 3}
   - {fileID: 114191363084881030, guid: c4ba22d80e3951149993cfdfa83d5bbd, type: 3}
   - {fileID: 128530181839780742, guid: fcdc3b6ce41c68a46a66bd80f781bb50, type: 3}
@@ -181,6 +180,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1fdbfbd15c3ab674bba487c183dfb99d, type: 2}
   - {fileID: 11400000, guid: 31b3c9ca2358f3748bbacd9bea3ad525, type: 2}
   mapInfos:
+  - {fileID: 11400000, guid: 81e4730004ac7574c8d1e3696814835f, type: 2}
   - {fileID: 11400000, guid: 9da28da85b5391b4b95295bd3b3725f1, type: 2}
   - {fileID: 11400000, guid: 9da28da85b5391b4b95295bd3b3725f1, type: 2}
   - {fileID: 11400000, guid: 7d05446271b4d8f459650ee3e2489a34, type: 2}

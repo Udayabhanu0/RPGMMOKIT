@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/UnityMultiplayerARPG/MMO/Demo/Scenes/01Home_MMO.unity
     guid: d529c814bb9fcd14289ac4141b27e951
   - enabled: 1
+    path: Assets/UnityMultiplayerARPG/Demo/Scenes/DreamMap.unity
+    guid: 72c9bd8956a6b6d4dbf84e2a19cd22dc
+  - enabled: 1
     path: Assets/UnityMultiplayerARPG/Demo/Scenes/TestMap.unity
     guid: b476e1dcc309d414f95b689649356a89
   - enabled: 1
