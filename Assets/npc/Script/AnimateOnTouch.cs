@@ -17,7 +17,7 @@ public class AnimateOnTouch : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetButtonDown("X"))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             animator.SetTrigger("Talking");
         }

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: GameDatabase
   m_EditorClassIdentifier: 
   playerCharacterEntities:
+  - {fileID: 1568101473403400800, guid: 77d9f1c7e9ddffb4fa8ee49cbe4b58c3, type: 3}
   - {fileID: 114586576023340800, guid: 0f0836d25b5171245a4c66deb284f48d, type: 3}
   - {fileID: 114191363084881030, guid: c4ba22d80e3951149993cfdfa83d5bbd, type: 3}
   - {fileID: 128530181839780742, guid: fcdc3b6ce41c68a46a66bd80f781bb50, type: 3}
@@ -26,6 +27,7 @@ MonoBehaviour:
   - {fileID: 5503484860487485313, guid: 0586cf25f965f3a4fb8545233fd5f6eb, type: 3}
   vehicleEntities:
   - {fileID: 114414903903199864, guid: ff9787a13f67d204f9931790d6db8e1d, type: 3}
+  - {fileID: 301155592432840711, guid: 43124915179468545a9c91d554b2f5e7, type: 3}
   otherNetworkObjects: []
   attributes:
   - {fileID: 11400000, guid: cf50e3647cfae0e44b683163d2171277, type: 2}

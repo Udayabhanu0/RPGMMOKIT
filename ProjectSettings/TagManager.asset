@@ -11,6 +11,9 @@ TagManager:
   - BuildingTag
   - HarvestableTag
   - VehicleTag
+  - Horse
+  - Water
+  - Defult
   layers:
   - Default
   - TransparentFX
@@ -32,7 +35,7 @@ TagManager:
   - Player
   - Monster
   - Npc
-  - Vehicle
+  - Animal
   - 
   - 
   - 
