@@ -4,55 +4,193 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 02b9ef4d0edc1ac41b530d9b25e800b2, type: 3}
   m_Name: PoisonArea
   m_EditorClassIdentifier: 
-  title: Poison Area
-  titles: []
-  description: 
-  descriptions: []
+  id: 
+  defaultTitle: Poison Area
+  languageSpecificTitles: []
+  defaultDescription: 
+  languageSpecificDescriptions: []
   category: 
-  icon: {fileID: 21300000, guid: 5591daaf165973d45a63155219248228, type: 3}
+  icon: {fileID: 21300000, guid: 8a5f9829a049c704fa992203bfc451f2, type: 3}
   maxLevel: 10
+  cannotReset: 0
   moveSpeedRateWhileUsingSkill: 0
-  castEffects:
-    effects: []
-  canBeInterruptedWhileCasting: 0
-  castDuration:
-    baseAmount: 0.5
+  movementRestrictionWhileUsingSkill:
+    jumpRestricted: 0
+    turnRestricted: 0
+  useSkillRestriction:
+    restrictedWhileAirborne: 0
+    restrictedWhileCrouching: 0
+    restrictedWhileCrawling: 0
+  consumeHp:
+    baseAmount: 0
     amountIncreaseEachLevel: 0
-  availableWeapons: []
+    amountIncreaseEachLevelByLevels: []
   consumeMp:
     baseAmount: 10
     amountIncreaseEachLevel: 0
+    amountIncreaseEachLevelByLevels: []
+  consumeStamina:
+    baseAmount: 0
+    amountIncreaseEachLevel: 0
+    amountIncreaseEachLevelByLevels: []
+  consumeHpRate:
+    baseAmount: 0
+    amountIncreaseEachLevel: 0
+    amountIncreaseEachLevelByLevels: []
+  consumeMpRate:
+    baseAmount: 0
+    amountIncreaseEachLevel: 0
+    amountIncreaseEachLevelByLevels: []
+  consumeStaminaRate:
+    baseAmount: 0
+    amountIncreaseEachLevel: 0
+    amountIncreaseEachLevelByLevels: []
   coolDownDuration:
     baseAmount: 5
     amountIncreaseEachLevel: 0
+    amountIncreaseEachLevelByLevels: []
+  skillCastEffects:
+  - {fileID: -2968772580886747475, guid: 2e28e14bfcbc9c446af40a9bcde870e6, type: 3}
+  castDuration:
+    baseAmount: 0.5
+    amountIncreaseEachLevel: 0
+    amountIncreaseEachLevelByLevels: []
+  canBeInterruptedWhileCasting: 0
+  damageHitEffects:
+  - {fileID: -2968772580886747475, guid: 2e28e14bfcbc9c446af40a9bcde870e6, type: 3}
   requirement:
+    disallow: 0
     characterLevel:
       baseAmount: 0
       amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    skillPoint:
+      baseAmount: 1
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    gold:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
     attributeAmounts: []
     skillLevels: []
+    currencyAmounts: []
+    itemAmounts: []
+  makeRequirementEachLevels: 0
+  requirementEachLevels:
+  - disallow: 0
+    characterLevel: 0
+    skillPoint: 1
+    gold: 0
+    attributeAmounts: []
+    skillLevels: []
+    currencyAmounts: []
+    itemAmounts: []
+  - disallow: 0
+    characterLevel: 0
+    skillPoint: 1
+    gold: 0
+    attributeAmounts: []
+    skillLevels: []
+    currencyAmounts: []
+    itemAmounts: []
+  - disallow: 0
+    characterLevel: 0
+    skillPoint: 1
+    gold: 0
+    attributeAmounts: []
+    skillLevels: []
+    currencyAmounts: []
+    itemAmounts: []
+  - disallow: 0
+    characterLevel: 0
+    skillPoint: 1
+    gold: 0
+    attributeAmounts: []
+    skillLevels: []
+    currencyAmounts: []
+    itemAmounts: []
+  - disallow: 0
+    characterLevel: 0
+    skillPoint: 1
+    gold: 0
+    attributeAmounts: []
+    skillLevels: []
+    currencyAmounts: []
+    itemAmounts: []
+  - disallow: 0
+    characterLevel: 0
+    skillPoint: 1
+    gold: 0
+    attributeAmounts: []
+    skillLevels: []
+    currencyAmounts: []
+    itemAmounts: []
+  - disallow: 0
+    characterLevel: 0
+    skillPoint: 1
+    gold: 0
+    attributeAmounts: []
+    skillLevels: []
+    currencyAmounts: []
+    itemAmounts: []
+  - disallow: 0
+    characterLevel: 0
+    skillPoint: 1
+    gold: 0
+    attributeAmounts: []
+    skillLevels: []
+    currencyAmounts: []
+    itemAmounts: []
+  - disallow: 0
+    characterLevel: 0
+    skillPoint: 1
+    gold: 0
+    attributeAmounts: []
+    skillLevels: []
+    currencyAmounts: []
+    itemAmounts: []
+  - disallow: 0
+    characterLevel: 0
+    skillPoint: 1
+    gold: 0
+    attributeAmounts: []
+    skillLevels: []
+    currencyAmounts: []
+    itemAmounts: []
+  requireShield: 0
+  availableWeapons: []
+  availableArmors: []
+  availableVehicles: []
+  requireItems: []
+  requireAmmoType: 0
+  requireAmmoAmount: 0
+  requireAmmos: []
   castDistance:
     baseAmount: 6
     amountIncreaseEachLevel: 0
+    amountIncreaseEachLevelByLevels: []
   areaDuration:
     baseAmount: 3
     amountIncreaseEachLevel: 0
+    amountIncreaseEachLevelByLevels: []
   applyDuration:
     baseAmount: 0.5
     amountIncreaseEachLevel: 0
+    amountIncreaseEachLevelByLevels: []
   targetObjectPrefab: {fileID: 1560297747330198, guid: 96979ca6e5ab9244a8a8e6406df251bb,
-    type: 2}
+    type: 3}
   areaDamageEntity: {fileID: 114495419995791638, guid: 81f7a740287352a42bfcf19f8a984275,
-    type: 2}
-  hitEffects:
-    effects: []
+    type: 3}
+  skillAttackType: 0
   damageAmount:
     damageElement: {fileID: 11400000, guid: 722cfdf3e0a6c8f47bd849a2d998e915, type: 2}
     amount:
@@ -62,32 +200,28 @@ MonoBehaviour:
       amountIncreaseEachLevel:
         min: 1
         max: 1
+      amountIncreaseEachLevelByLevels: []
+  effectivenessAttributes: []
+  weaponDamageInflictions: []
   additionalDamageAmounts: []
-  increaseDamageWithBuffs: 0
+  increaseDamageAmountsWithBuffs: 0
   isDebuff: 0
   debuff:
-    duration:
-      baseAmount: 0
-      amountIncreaseEachLevel: 0
-    recoveryHp:
-      baseAmount: 0
-      amountIncreaseEachLevel: 0
-    recoveryMp:
-      baseAmount: 0
-      amountIncreaseEachLevel: 0
-    recoveryStamina:
-      baseAmount: 0
-      amountIncreaseEachLevel: 0
-    recoveryFood:
-      baseAmount: 0
-      amountIncreaseEachLevel: 0
-    recoveryWater:
-      baseAmount: 0
-      amountIncreaseEachLevel: 0
+    tag: 
+    restrictTags: []
     increaseStats:
       baseStats:
         hp: 0
+        hpRecovery: 0
+        hpLeechRate: 0
         mp: 0
+        mpRecovery: 0
+        mpLeechRate: 0
+        stamina: 0
+        staminaRecovery: 0
+        staminaLeechRate: 0
+        food: 0
+        water: 0
         accuracy: 0
         evasion: 0
         criRate: 0
@@ -98,14 +232,21 @@ MonoBehaviour:
         atkSpeed: 0
         weightLimit: 0
         slotLimit: 0
-        stamina: 0
-        food: 0
-        water: 0
-        armor: 0
-        testStats: 0
+        goldRate: 0
+        expRate: 0
+        testStat1: 0
       statsIncreaseEachLevel:
         hp: 0
+        hpRecovery: 0
+        hpLeechRate: 0
         mp: 0
+        mpRecovery: 0
+        mpLeechRate: 0
+        stamina: 0
+        staminaRecovery: 0
+        staminaLeechRate: 0
+        food: 0
+        water: 0
         accuracy: 0
         evasion: 0
         criRate: 0
@@ -116,15 +257,22 @@ MonoBehaviour:
         atkSpeed: 0
         weightLimit: 0
         slotLimit: 0
-        stamina: 0
-        food: 0
-        water: 0
-        armor: 0
-        testStats: 0
+        goldRate: 0
+        expRate: 0
+        testStat1: 0
     increaseStatsRate:
       baseStats:
         hp: 0
+        hpRecovery: 0
+        hpLeechRate: 0
         mp: 0
+        mpRecovery: 0
+        mpLeechRate: 0
+        stamina: 0
+        staminaRecovery: 0
+        staminaLeechRate: 0
+        food: 0
+        water: 0
         accuracy: 0
         evasion: 0
         criRate: 0
@@ -135,14 +283,21 @@ MonoBehaviour:
         atkSpeed: 0
         weightLimit: 0
         slotLimit: 0
-        stamina: 0
-        food: 0
-        water: 0
-        armor: 0
-        testStats: 0
+        goldRate: 0
+        expRate: 0
+        testStat1: 0
       statsIncreaseEachLevel:
         hp: 0
+        hpRecovery: 0
+        hpLeechRate: 0
         mp: 0
+        mpRecovery: 0
+        mpLeechRate: 0
+        stamina: 0
+        staminaRecovery: 0
+        staminaLeechRate: 0
+        food: 0
+        water: 0
         accuracy: 0
         evasion: 0
         criRate: 0
@@ -153,19 +308,65 @@ MonoBehaviour:
         atkSpeed: 0
         weightLimit: 0
         slotLimit: 0
-        stamina: 0
-        food: 0
-        water: 0
-        armor: 0
-        testStats: 0
+        goldRate: 0
+        expRate: 0
+        testStat1: 0
     increaseAttributes: []
     increaseAttributesRate: []
     increaseResistances: []
     increaseArmors: []
     increaseDamages: []
+    duration:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    recoveryHp:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    recoveryMp:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    recoveryStamina:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    recoveryFood:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    recoveryWater:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
     damageOverTimes: []
+    ailment: 0
     disallowMove: 0
     disallowAttack: 0
     disallowUseSkill: 0
     disallowUseItem: 0
+    freezeAnimation: 0
+    isHide: 0
+    muteFootstepSound: 0
+    selfStatusEffectsWhenAttacking: []
+    enemyStatusEffectsWhenAttacking: []
+    selfStatusEffectsWhenAttacked: []
+    enemyStatusEffectsWhenAttacked: []
+    doNotRemoveOnDead: 0
+    isExtendDuration: 0
+    maxStack:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
     effects: []
+  harvestType: 0
+  harvestDamageAmount:
+    baseAmount:
+      min: 0
+      max: 0
+    amountIncreaseEachLevel:
+      min: 0
+      max: 0
+    amountIncreaseEachLevelByLevels: []
+  isWarpToAimPosition: 0

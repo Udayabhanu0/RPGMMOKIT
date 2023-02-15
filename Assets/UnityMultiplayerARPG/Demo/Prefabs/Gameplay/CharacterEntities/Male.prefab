@@ -2910,6 +2910,7 @@ GameObject:
   - component: {fileID: 5540792737619681476}
   - component: {fileID: 7143696913399867217}
   - component: {fileID: 847153954121279}
+  - component: {fileID: 5763854682080636612}
   m_Layer: 8
   m_Name: Male
   m_TagString: Untagged
@@ -9709,6 +9710,19 @@ MonoBehaviour:
   dataChannel: 0
   sendOptions: 0
   sendInterval: 0.1
+--- !u!65 &5763854682080636612
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330211130407196}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.41082072, y: 0.21635076, z: 0.43047434}
+  m_Center: {x: -0.008761197, y: 0.12161805, z: 0.11635658}
 --- !u!1 &1395136379610290
 GameObject:
   m_ObjectHideFlags: 0

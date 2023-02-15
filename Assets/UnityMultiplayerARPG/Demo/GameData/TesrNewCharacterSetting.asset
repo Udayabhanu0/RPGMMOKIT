@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dbe1936b7013c64ab22eab9d84671e0, type: 3}
+  m_Name: TesrNewCharacterSetting
+  m_EditorClassIdentifier: 
+  startGold: 2000
+  startItems:
+  - item: {fileID: 11400000, guid: 71c16926d2dc33343ab0727be3d5341e, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: 39b683c252aca66479722054f719544b, type: 2}
+    amount: 1

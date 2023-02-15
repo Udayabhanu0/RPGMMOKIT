@@ -75,28 +75,32 @@ MonoBehaviour:
     amount:
       baseAmount: 15
       amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
   - attribute: {fileID: 11400000, guid: cf50e3647cfae0e44b683163d2171277, type: 2}
     amount:
       baseAmount: 15
       amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
   - attribute: {fileID: 11400000, guid: c7e3824f99bb4bc43b9566210f8d02f5, type: 2}
     amount:
       baseAmount: 15
       amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
   - attribute: {fileID: 11400000, guid: cd3d2fb4f3c67fd4dbba3bd0ccd0095e, type: 2}
     amount:
       baseAmount: 15
       amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
   resistances: []
   armors: []
   skillLevels: []
   rightHandEquipItem: {fileID: 0}
   leftHandEquipItem: {fileID: 0}
   armorItems:
-  - {fileID: 11400000, guid: 64774d4b5cf3f9846a2d2088fb52e44a, type: 2}
-  - {fileID: 11400000, guid: 66401780aa1f1a24782d11c6980883b2, type: 2}
-  - {fileID: 11400000, guid: e43af8a3a8f9a7a478dc243c7b15ff5f, type: 2}
-  - {fileID: 11400000, guid: f913fbdc47f19a4408bc793331f9583a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   startItems: []
   startMap: {fileID: 0}
   useOverrideStartPosition: 0

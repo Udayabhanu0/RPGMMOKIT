@@ -13,43 +13,162 @@ MonoBehaviour:
   m_Name: FireBolt
   m_EditorClassIdentifier: 
   id: 
-  title: Fire Bolt
-  titles: []
-  description: 
-  descriptions: []
+  defaultTitle: Fire Bolt
+  languageSpecificTitles: []
+  defaultDescription: 
+  languageSpecificDescriptions: []
   category: 
-  icon: {fileID: 21300000, guid: f565d673d30d2d5418f387b17cfdd82c, type: 3}
+  icon: {fileID: 21300000, guid: 487ca9c97a2121c49b97711625081a3b, type: 3}
   maxLevel: 10
+  cannotReset: 0
   moveSpeedRateWhileUsingSkill: 0
+  movementRestrictionWhileUsingSkill:
+    jumpRestricted: 0
+    turnRestricted: 0
+  useSkillRestriction:
+    restrictedWhileAirborne: 0
+    restrictedWhileCrouching: 0
+    restrictedWhileCrawling: 0
+  consumeHp:
+    baseAmount: 0
+    amountIncreaseEachLevel: 0
+    amountIncreaseEachLevelByLevels: []
+  consumeMp:
+    baseAmount: 2
+    amountIncreaseEachLevel: 0
+    amountIncreaseEachLevelByLevels: []
+  consumeStamina:
+    baseAmount: 0
+    amountIncreaseEachLevel: 0
+    amountIncreaseEachLevelByLevels: []
+  consumeHpRate:
+    baseAmount: 0
+    amountIncreaseEachLevel: 0
+    amountIncreaseEachLevelByLevels: []
+  consumeMpRate:
+    baseAmount: 0
+    amountIncreaseEachLevel: 0
+    amountIncreaseEachLevelByLevels: []
+  consumeStaminaRate:
+    baseAmount: 0
+    amountIncreaseEachLevel: 0
+    amountIncreaseEachLevelByLevels: []
+  coolDownDuration:
+    baseAmount: 5
+    amountIncreaseEachLevel: 0
+    amountIncreaseEachLevelByLevels: []
   skillCastEffects: []
   castDuration:
     baseAmount: 0
     amountIncreaseEachLevel: 0
+    amountIncreaseEachLevelByLevels: []
   canBeInterruptedWhileCasting: 0
   damageHitEffects:
   - {fileID: 114395511358828242, guid: da484fbdc56d4934dba2a847422e5dc9, type: 3}
+  requirement:
+    disallow: 0
+    characterLevel:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    skillPoint:
+      baseAmount: 1
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    gold:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    attributeAmounts: []
+    skillLevels: []
+    currencyAmounts: []
+    itemAmounts: []
+  makeRequirementEachLevels: 0
+  requirementEachLevels:
+  - disallow: 0
+    characterLevel: 0
+    skillPoint: 1
+    gold: 0
+    attributeAmounts: []
+    skillLevels: []
+    currencyAmounts: []
+    itemAmounts: []
+  - disallow: 0
+    characterLevel: 0
+    skillPoint: 1
+    gold: 0
+    attributeAmounts: []
+    skillLevels: []
+    currencyAmounts: []
+    itemAmounts: []
+  - disallow: 0
+    characterLevel: 0
+    skillPoint: 1
+    gold: 0
+    attributeAmounts: []
+    skillLevels: []
+    currencyAmounts: []
+    itemAmounts: []
+  - disallow: 0
+    characterLevel: 0
+    skillPoint: 1
+    gold: 0
+    attributeAmounts: []
+    skillLevels: []
+    currencyAmounts: []
+    itemAmounts: []
+  - disallow: 0
+    characterLevel: 0
+    skillPoint: 1
+    gold: 0
+    attributeAmounts: []
+    skillLevels: []
+    currencyAmounts: []
+    itemAmounts: []
+  - disallow: 0
+    characterLevel: 0
+    skillPoint: 1
+    gold: 0
+    attributeAmounts: []
+    skillLevels: []
+    currencyAmounts: []
+    itemAmounts: []
+  - disallow: 0
+    characterLevel: 0
+    skillPoint: 1
+    gold: 0
+    attributeAmounts: []
+    skillLevels: []
+    currencyAmounts: []
+    itemAmounts: []
+  - disallow: 0
+    characterLevel: 0
+    skillPoint: 1
+    gold: 0
+    attributeAmounts: []
+    skillLevels: []
+    currencyAmounts: []
+    itemAmounts: []
+  - disallow: 0
+    characterLevel: 0
+    skillPoint: 1
+    gold: 0
+    attributeAmounts: []
+    skillLevels: []
+    currencyAmounts: []
+    itemAmounts: []
+  - disallow: 0
+    characterLevel: 0
+    skillPoint: 1
+    gold: 0
+    attributeAmounts: []
+    skillLevels: []
+    currencyAmounts: []
+    itemAmounts: []
   requireShield: 0
   availableWeapons: []
   availableArmors: []
   availableVehicles: []
-  consumeHp:
-    baseAmount: 0
-    amountIncreaseEachLevel: 0
-  consumeMp:
-    baseAmount: 2
-    amountIncreaseEachLevel: 0
-  consumeStamina:
-    baseAmount: 0
-    amountIncreaseEachLevel: 0
-  coolDownDuration:
-    baseAmount: 5
-    amountIncreaseEachLevel: 0
-  requirement:
-    characterLevel:
-      baseAmount: 0
-      amountIncreaseEachLevel: 0
-    attributeAmounts: []
-    skillLevels: []
   requireItems: []
   requireAmmoType: 0
   requireAmmoAmount: 0
@@ -59,10 +178,11 @@ MonoBehaviour:
   damageInfo:
     damageType: 1
     hitOnlySelectedTarget: 0
+    startAttackDistance: 0
     hitDistance: 1
     hitFov: 90
-    missileDistance: 10
-    missileSpeed: 25
+    missileDistance: 30
+    missileSpeed: 10
     missileDamageEntity: {fileID: 114101601413944088, guid: e5cd6d9e632c8af4baceb095f263288d,
       type: 3}
     projectileEffect: {fileID: 0}
@@ -81,6 +201,7 @@ MonoBehaviour:
       amountIncreaseEachLevel:
         min: 2
         max: 2
+      amountIncreaseEachLevelByLevels: []
   effectivenessAttributes:
   - attribute: {fileID: 11400000, guid: cd3d2fb4f3c67fd4dbba3bd0ccd0095e, type: 2}
     effectiveness: 0.1
@@ -89,24 +210,8 @@ MonoBehaviour:
   increaseDamageAmountsWithBuffs: 0
   isDebuff: 1
   debuff:
-    duration:
-      baseAmount: 10
-      amountIncreaseEachLevel: 0
-    recoveryHp:
-      baseAmount: 0
-      amountIncreaseEachLevel: 0
-    recoveryMp:
-      baseAmount: 0
-      amountIncreaseEachLevel: 0
-    recoveryStamina:
-      baseAmount: 0
-      amountIncreaseEachLevel: 0
-    recoveryFood:
-      baseAmount: 0
-      amountIncreaseEachLevel: 0
-    recoveryWater:
-      baseAmount: 0
-      amountIncreaseEachLevel: 0
+    tag: 
+    restrictTags: []
     increaseStats:
       baseStats:
         hp: 0
@@ -130,7 +235,9 @@ MonoBehaviour:
         atkSpeed: 0
         weightLimit: 0
         slotLimit: 0
-        testStats: 0
+        goldRate: 0
+        expRate: 0
+        testStat1: 0
       statsIncreaseEachLevel:
         hp: 0
         hpRecovery: 0
@@ -153,7 +260,9 @@ MonoBehaviour:
         atkSpeed: 0
         weightLimit: 0
         slotLimit: 0
-        testStats: 0
+        goldRate: 0
+        expRate: 0
+        testStat1: 0
     increaseStatsRate:
       baseStats:
         hp: 0
@@ -177,7 +286,9 @@ MonoBehaviour:
         atkSpeed: 0
         weightLimit: 0
         slotLimit: 0
-        testStats: 0
+        goldRate: 0
+        expRate: 0
+        testStat1: 0
       statsIncreaseEachLevel:
         hp: 0
         hpRecovery: 0
@@ -200,12 +311,38 @@ MonoBehaviour:
         atkSpeed: 0
         weightLimit: 0
         slotLimit: 0
-        testStats: 0
+        goldRate: 0
+        expRate: 0
+        testStat1: 0
     increaseAttributes: []
     increaseAttributesRate: []
     increaseResistances: []
     increaseArmors: []
     increaseDamages: []
+    duration:
+      baseAmount: 10
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    recoveryHp:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    recoveryMp:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    recoveryStamina:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    recoveryFood:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    recoveryWater:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
     damageOverTimes:
     - damageElement: {fileID: 11400000, guid: 3afa55aee773f47438e6f7f3a03cd0b9, type: 2}
       amount:
@@ -215,12 +352,25 @@ MonoBehaviour:
         amountIncreaseEachLevel:
           min: 0
           max: 0
+        amountIncreaseEachLevelByLevels: []
+    ailment: 0
     disallowMove: 0
     disallowAttack: 0
     disallowUseSkill: 0
     disallowUseItem: 0
+    freezeAnimation: 0
     isHide: 0
     muteFootstepSound: 0
+    selfStatusEffectsWhenAttacking: []
+    enemyStatusEffectsWhenAttacking: []
+    selfStatusEffectsWhenAttacked: []
+    enemyStatusEffectsWhenAttacked: []
+    doNotRemoveOnDead: 0
+    isExtendDuration: 0
+    maxStack:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
     effects:
     - {fileID: 114978955299650166, guid: 28d0f22e964f57945b26f1fefece6096, type: 3}
   harvestType: 0
@@ -231,29 +381,17 @@ MonoBehaviour:
     amountIncreaseEachLevel:
       min: 0
       max: 0
+    amountIncreaseEachLevelByLevels: []
   skillBuffType: 0
   buffDistance:
     baseAmount: 0
     amountIncreaseEachLevel: 0
+    amountIncreaseEachLevelByLevels: []
+  buffToUserIfNoTarget: 1
+  canBuffEnemy: 0
   buff:
-    duration:
-      baseAmount: 0
-      amountIncreaseEachLevel: 0
-    recoveryHp:
-      baseAmount: 0
-      amountIncreaseEachLevel: 0
-    recoveryMp:
-      baseAmount: 0
-      amountIncreaseEachLevel: 0
-    recoveryStamina:
-      baseAmount: 0
-      amountIncreaseEachLevel: 0
-    recoveryFood:
-      baseAmount: 0
-      amountIncreaseEachLevel: 0
-    recoveryWater:
-      baseAmount: 0
-      amountIncreaseEachLevel: 0
+    tag: 
+    restrictTags: []
     increaseStats:
       baseStats:
         hp: 0
@@ -277,7 +415,9 @@ MonoBehaviour:
         atkSpeed: 0
         weightLimit: 0
         slotLimit: 0
-        testStats: 0
+        goldRate: 0
+        expRate: 0
+        testStat1: 0
       statsIncreaseEachLevel:
         hp: 0
         hpRecovery: 0
@@ -300,7 +440,9 @@ MonoBehaviour:
         atkSpeed: 0
         weightLimit: 0
         slotLimit: 0
-        testStats: 0
+        goldRate: 0
+        expRate: 0
+        testStat1: 0
     increaseStatsRate:
       baseStats:
         hp: 0
@@ -324,7 +466,9 @@ MonoBehaviour:
         atkSpeed: 0
         weightLimit: 0
         slotLimit: 0
-        testStats: 0
+        goldRate: 0
+        expRate: 0
+        testStat1: 0
       statsIncreaseEachLevel:
         hp: 0
         hpRecovery: 0
@@ -347,38 +491,81 @@ MonoBehaviour:
         atkSpeed: 0
         weightLimit: 0
         slotLimit: 0
-        testStats: 0
+        goldRate: 0
+        expRate: 0
+        testStat1: 0
     increaseAttributes: []
     increaseAttributesRate: []
     increaseResistances: []
     increaseArmors: []
     increaseDamages: []
+    duration:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    recoveryHp:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    recoveryMp:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    recoveryStamina:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    recoveryFood:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    recoveryWater:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
     damageOverTimes: []
+    ailment: 0
     disallowMove: 0
     disallowAttack: 0
     disallowUseSkill: 0
     disallowUseItem: 0
+    freezeAnimation: 0
     isHide: 0
     muteFootstepSound: 0
+    selfStatusEffectsWhenAttacking: []
+    enemyStatusEffectsWhenAttacking: []
+    selfStatusEffectsWhenAttacked: []
+    enemyStatusEffectsWhenAttacked: []
+    doNotRemoveOnDead: 0
+    isExtendDuration: 0
+    maxStack:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
     effects: []
   summon:
     monsterEntity: {fileID: 0}
     duration:
       baseAmount: 0
       amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
     amountEachTime:
       baseAmount: 0
       amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
     maxStack:
       baseAmount: 0
       amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
     level:
       baseAmount: 0
       amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
   mount:
     mountEntity: {fileID: 0}
   itemCraft:
     craftingItem: {fileID: 0}
     amount: 0
     requireGold: 0
-    craftRequirements: []
+    requireItems: []
+    requireCurrencies: []

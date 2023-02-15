@@ -967,7 +967,7 @@ MonoBehaviour:
   petDeadLockDuration: 60
   petUnSummonLockDuration: 30
   joinInstanceMapDistance: 20
-  newCharacterSetting: {fileID: 11400000, guid: 96c4888e481bfee4887f1537d72da080,
+  newCharacterSetting: {fileID: 11400000, guid: 41c7a47d8bc031c4b98b090b9ff3b597,
     type: 2}
   startGold: 0
   startItems: []

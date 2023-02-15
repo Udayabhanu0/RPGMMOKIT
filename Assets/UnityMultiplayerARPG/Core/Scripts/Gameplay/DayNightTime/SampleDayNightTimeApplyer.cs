@@ -7,6 +7,7 @@ namespace MultiplayerARPG
     [ExecuteInEditMode]
     public class SampleDayNightTimeApplyer : MonoBehaviour
     {
+        public ParticleSystem pSystem;
         [Header("Color Settings")]
         [Tooltip("Gradient from time at midnight to another midnight")]
         public Gradient ambientColor;
@@ -34,6 +35,18 @@ namespace MultiplayerARPG
             {
                 directionalLight.color = directionalColor.Evaluate(timeOfDayPercent);
                 directionalLight.transform.localRotation = Quaternion.Euler(new Vector3((timeOfDayPercent * 360f) - 90f, 170f, 0));
+            }
+        }
+        private void FixedUpdate()
+        {
+            Debug.Log(timeOfDayPercent);
+            if(timeOfDayPercent< 0.7f && timeOfDayPercent >0.3f) {
+                pSystem.Stop();
+            }
+            else
+            {
+                pSystem.Play();
+
             }
         }
     }

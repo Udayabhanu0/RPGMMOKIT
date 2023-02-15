@@ -44,13 +44,13 @@ public class FollowCameraControls : FollowCamera
     [Header("Zoom")]
     public bool limitZoomDistance;
     public float minZoomDistance;
-    public float maxZoomDistance;
+    public float maxZoomDistance = 15f;
     public bool smoothZoom;
     [FormerlySerializedAs("zoomSmoothing")]
     public float zoomDeacceleration = 10.0f;
 
     [Header("General Zoom Settings")]
-    public float startZoomDistance;
+    public float startZoomDistance = 15f;
     public float zoomSpeed = 0.05f;
     [Range(0.1f, 1f)]
     public float zoomSpeedScale = 1;
