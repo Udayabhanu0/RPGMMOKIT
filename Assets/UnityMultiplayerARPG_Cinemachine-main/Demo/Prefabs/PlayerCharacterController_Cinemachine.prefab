@@ -112,7 +112,7 @@ MonoBehaviour:
   CM: {fileID: -6616639161349547241}
   player: {fileID: 0}
   NPC: {fileID: 0}
-  height: 84
+  height: 6
   distance: 20
   transitionSpeed: 5
   TargetPos: {fileID: 7557724864841197872}
@@ -235,7 +235,7 @@ MonoBehaviour:
   m_LockStageInInspector: 
   m_StreamingVersion: 20170927
   m_Priority: 10
-  m_StandbyUpdate: 2
+  m_StandbyUpdate: 0
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
