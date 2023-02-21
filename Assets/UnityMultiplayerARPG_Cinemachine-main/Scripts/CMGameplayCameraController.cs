@@ -7,6 +7,7 @@ namespace MultiplayerARPG.Cinemachine
     {
         public CinemachineBrain brain;
         public CinemachineVirtualCamera virtualCamera;
+        public CinemachineVirtualCamera virtualCamera1;
         public string pitchAxisName = "Mouse Y";
         public float pitchRotateSpeed = 4f;
         public float pitchRotateSpeedScale = 1f;

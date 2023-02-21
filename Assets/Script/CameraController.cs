@@ -55,22 +55,29 @@ namespace MultiplayerARPG
             if (isFocused)
             {
                 Debug.Log("Changed pisition");
-                Vector3 midPoint = (player.position + NPC.position) / 2;
+                Vector3 midPoint = player.transform.position;
 
-                Vector3 targetPosition = new Vector3(midPoint.x, midPoint.y + height, midPoint.z - distance);
+                Vector3 targetPosition = new Vector3(midPoint.x, midPoint.y +1.5f+ height, midPoint.z - distance);
                 TargetPos.transform.position = midPoint;
 
                 transform.position = Vector3.Lerp(transform.position, targetPosition, transitionSpeed * Time.deltaTime);
 
-                transform.LookAt(midPoint);
-                CM.virtualCamera.LookAt = TargetPos.transform;
+                transform.LookAt(NPC);
+                CM.virtualCamera1.LookAt = NPC.transform;
                 
-                CM.virtualCamera.m_Follow = TargetPos.transform;/*
+                CM.virtualCamera1.m_Follow = NPC.transform;
+                CM.virtualCamera1.transform.position = targetPosition;
+                CM.virtualCamera1.transform.position = targetPosition;
+                CM.virtualCamera1.transform.rotation = Quaternion.LookRotation(CM.virtualCamera1.transform.position - player.position);
+               /*
                 CM.virtualCamera.m_UpdateMethod = CinemachineVirtualCameraBase.UpdateMethod.LateUpdate;*/
-                CM.virtualCamera.m_Priority = 10;
+                CM.virtualCamera1.m_Priority = 10;
+                CM.virtualCamera.m_Priority = 1; 
             }
             else
             {
+                CM.virtualCamera1.m_Priority = 1;
+                CM.virtualCamera.m_Priority = 10;
                 transform.position = Vector3.Lerp(transform.position, initialPosition, transitionSpeed * Time.deltaTime);
                 transform.rotation = Quaternion.Slerp(transform.rotation, initialRotation, transitionSpeed * Time.deltaTime);
             }
