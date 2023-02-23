@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a278d249b1987cf4ebdb60bb4769bf33, type: 3}
+  m_Name: CollectFruitQuest
+  m_EditorClassIdentifier: 
+  id: 
+  defaultTitle: Collect Fruit
+  languageSpecificTitles: []
+  defaultDescription: you have to collect 5 apple
+  languageSpecificDescriptions: []
+  category: 
+  icon: {fileID: 0}
+  requirement:
+    character: {fileID: 0}
+    level: 0
+    completedQuests: []
+  tasks:
+  - taskType: 1
+    monsterCharacterAmount:
+      monster: {fileID: 0}
+      amount: 0
+    itemAmount:
+      item: {fileID: 11400000, guid: ad97635a026f6d044b6cab6c8e8b77aa, type: 2}
+      amount: 5
+    doNotDecreaseItemsOnQuestComplete: 0
+    npcEntity: {fileID: 0}
+    talkToNpcDialog: {fileID: 0}
+    completeAfterTalked: 0
+    customQuestTask: {fileID: 0}
+  - taskType: 1
+    monsterCharacterAmount:
+      monster: {fileID: 0}
+      amount: 0
+    itemAmount:
+      item: {fileID: 11400000, guid: ad97635a026f6d044b6cab6c8e8b77aa, type: 2}
+      amount: 5
+    doNotDecreaseItemsOnQuestComplete: 0
+    npcEntity: {fileID: 0}
+    talkToNpcDialog: {fileID: 0}
+    completeAfterTalked: 0
+    customQuestTask: {fileID: 0}
+  abandonQuests: []
+  resetAttributes: 0
+  resetSkills: 0
+  changeCharacterClass: {fileID: 0}
+  rewardExp: 0
+  rewardGold: 0
+  rewardCurrencies: []
+  rewardItems: []
+  selectableRewardItems: []
+  randomRewardItems: []
+  canRepeat: 0

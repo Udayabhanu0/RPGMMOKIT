@@ -126,10 +126,10 @@ MonoBehaviour:
   - {fileID: 0}
   startItems:
   - item: {fileID: 11400000, guid: 93c389fe9d40638469bffd9de26d31ba, type: 2}
-    amount: 50
+    amount: 1
   - item: {fileID: 11400000, guid: 93c389fe9d40638469bffd9de26d31ba, type: 2}
-    amount: 50
-  startMap: {fileID: 11400000, guid: 81e4730004ac7574c8d1e3696814835f, type: 2}
+    amount: 1
+  startMap: {fileID: 11400000, guid: 9da28da85b5391b4b95295bd3b3725f1, type: 2}
   useOverrideStartPosition: 0
   overrideStartPosition: {x: 0, y: 0, z: 0}
   useOverrideStartRotation: 0

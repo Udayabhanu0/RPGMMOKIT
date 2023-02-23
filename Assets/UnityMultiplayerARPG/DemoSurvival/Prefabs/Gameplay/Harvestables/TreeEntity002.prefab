@@ -33,6 +33,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4425132734816808}
   - {fileID: 4168297050782488}
@@ -66,13 +67,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1790ef164bc23524dbdccd3ce707da2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isIdAssigned: 1
+  id: 46
+  visibleMaterials: []
+  invisibleMaterials: []
+  fpsMaterials: []
   hiddingObjects: []
   hiddingRenderers: []
   fpsHiddingObjects: []
   fpsHiddingRenderers: []
+  genericAudioSource: {fileID: 0}
   effectContainers:
   - effectSocket: Body
     transform: {fileID: 4212538156423908}
+  setEffectLayerFollowEntity: 1
+  effectLayer:
+    layerIndex: 0
   setEffectContainersBySetters: 0
 --- !u!114 &114423208002969244
 MonoBehaviour:
@@ -86,11 +96,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56367cc2ed44f1e49835e9c247771fd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetId: 
+  assetId: 86c236f612381674e8f7c0793f0c47e7
   objectId: 0
-  connectionId: 0
-  manager: {fileID: 0}
-  subscriberIds: 
+  visibleRange: 0
+  alwaysVisible: 0
+  doNotDestroyWhenDisconnect: 0
+  poolingSize: 0
+  onGetInstance:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &114272027054039264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -104,87 +118,72 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   behaviourIndex: 0
+  dataChannel: 0
   sendOptions: 0
   sendInterval: 0.1
-  textTitle: {fileID: 0}
-  textTitleB: {fileID: 0}
-  ownerObjects: []
-  nonOwnerObjects: []
+  entityTitle: 
+  entityTitles: []
   syncTitle:
     behaviour: {fileID: 0}
     elementId: 0
-    deliveryMethod: 2
-    sendInterval: 0.1
     alwaysSync: 0
     doNotSyncInitialDataImmediately: 0
     syncMode: 0
-    value: 
-  syncTitleB:
-    behaviour: {fileID: 0}
-    elementId: 0
-    deliveryMethod: 2
     sendInterval: 0.1
-    alwaysSync: 0
-    doNotSyncInitialDataImmediately: 0
-    syncMode: 0
+    dataChannel: 0
+    deliveryMethod: 2
+    clientDataChannel: 0
+    clientDeliveryMethod: 1
     value: 
+  ownerObjects: []
+  nonOwnerObjects: []
   model: {fileID: 114382006195694744}
   cameraTargetTransform: {fileID: 0}
   fpsCameraTargetTransform: {fileID: 0}
-  movementSecure: 0
-  movementState:
-    behaviour: {fileID: 0}
-    elementId: 0
-    deliveryMethod: 1
-    sendInterval: 0.1
-    alwaysSync: 1
-    doNotSyncInitialDataImmediately: 1
-    syncMode: 0
-    value: 0
-  extraMovementState:
-    behaviour: {fileID: 0}
-    elementId: 0
-    deliveryMethod: 1
-    sendInterval: 0.1
-    alwaysSync: 1
-    doNotSyncInitialDataImmediately: 1
-    syncMode: 0
-    value: 0
-  direction2D:
-    behaviour: {fileID: 0}
-    elementId: 0
-    deliveryMethod: 1
-    sendInterval: 0.1
-    alwaysSync: 0
-    doNotSyncInitialDataImmediately: 1
-    syncMode: 0
-  passengingVehicle:
-    behaviour: {fileID: 0}
-    elementId: 0
-    deliveryMethod: 2
-    sendInterval: 0.1
-    alwaysSync: 0
-    doNotSyncInitialDataImmediately: 1
-    syncMode: 0
-    value:
-      objectId: 0
-      seatIndex: 0
   canSideSprint: 0
   canBackwardSprint: 0
   combatTextTransform: {fileID: 4168297050782488}
   opponentAimTransform: {fileID: 0}
-  currentHp:
+  isStaticHitBoxes: 0
+  onNormalDamageHit:
+    m_PersistentCalls:
+      m_Calls: []
+  onCriticalDamageHit:
+    m_PersistentCalls:
+      m_Calls: []
+  onBlockedDamageHit:
+    m_PersistentCalls:
+      m_Calls: []
+  onDamageMissed:
+    m_PersistentCalls:
+      m_Calls: []
+  isImmune:
     behaviour: {fileID: 0}
     elementId: 0
-    deliveryMethod: 0
-    sendInterval: 0.1
     alwaysSync: 0
     doNotSyncInitialDataImmediately: 0
     syncMode: 0
+    sendInterval: 0.1
+    dataChannel: 0
+    deliveryMethod: 1
+    clientDataChannel: 0
+    clientDeliveryMethod: 1
+    value: 0
+  currentHp:
+    behaviour: {fileID: 0}
+    elementId: 0
+    alwaysSync: 0
+    doNotSyncInitialDataImmediately: 0
+    syncMode: 0
+    sendInterval: 0.1
+    dataChannel: 0
+    deliveryMethod: 0
+    clientDataChannel: 0
+    clientDeliveryMethod: 1
     value: 0
   maxHp: 100
   harvestable: {fileID: 11400000, guid: 31b3c9ca2358f3748bbacd9bea3ad525, type: 2}
-  collectType: 0
+  collectType: 1
   colliderDetectionRadius: 0.75
   destroyDelay: 2
   destroyRespawnDelay: 5
@@ -192,6 +191,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 114117596614584624}
+        m_TargetAssemblyTypeName: 
         m_MethodName: FadeOut
         m_Mode: 1
         m_Arguments:
@@ -244,11 +244,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16e90d66c02169f4e9d03f0cb903566d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  behaviourIndex: 0
-  sendOptions: 0
-  sendInterval: 0.1
-  range: 80
-  updateInterval: 1
 --- !u!1 &1479904654085868
 GameObject:
   m_ObjectHideFlags: 0
@@ -277,6 +272,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4163630249469532}
   m_RootOrder: 0
@@ -300,10 +296,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -329,6 +327,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1555532691434452
 GameObject:
   m_ObjectHideFlags: 0
@@ -355,6 +354,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4163630249469532}
   m_RootOrder: 1
@@ -385,6 +385,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.75, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4163630249469532}
   m_RootOrder: 2

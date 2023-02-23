@@ -106,15 +106,17 @@ MonoBehaviour:
     level: 1
   - skill: {fileID: 11400000, guid: 558b16358ddfa6346b5e5e6211155da6, type: 2}
     level: 0
-  rightHandEquipItem: {fileID: 11400000, guid: b64f816f68b7d6a42b7d3857a4b5d931, type: 2}
+  rightHandEquipItem: {fileID: 11400000, guid: 4896d19f8423d0a4d9d8a4c055531694, type: 2}
   leftHandEquipItem: {fileID: 0}
   armorItems:
   - {fileID: 11400000, guid: 64774d4b5cf3f9846a2d2088fb52e44a, type: 2}
   - {fileID: 11400000, guid: 66401780aa1f1a24782d11c6980883b2, type: 2}
   - {fileID: 11400000, guid: e43af8a3a8f9a7a478dc243c7b15ff5f, type: 2}
   - {fileID: 11400000, guid: f913fbdc47f19a4408bc793331f9583a, type: 2}
-  startItems: []
-  startMap: {fileID: 11400000, guid: 81e4730004ac7574c8d1e3696814835f, type: 2}
+  startItems:
+  - item: {fileID: 11400000, guid: 4896d19f8423d0a4d9d8a4c055531694, type: 2}
+    amount: 2
+  startMap: {fileID: 11400000, guid: 9da28da85b5391b4b95295bd3b3725f1, type: 2}
   useOverrideStartPosition: 0
   overrideStartPosition: {x: 0, y: 0, z: 0}
   useOverrideStartRotation: 0
