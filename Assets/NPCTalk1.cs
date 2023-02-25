@@ -8,14 +8,13 @@ public class NPCTalk1 : MonoBehaviour
 {
     public UINpcDialog NpcUi;
     public TextMeshProUGUI textComponent;
-    public string[] lines;
+    public string lines;
     public float textSpeed;
 
     private int index;
     // Start is called before the first frame update
     void Start()
     {
-        lines[0]=NpcUi.Data.Description;
         textComponent.text= string.Empty;
         StartDialogue(); 
         Debug.Log(NpcUi.Data.Description);
@@ -24,16 +23,21 @@ public class NPCTalk1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-     /*       if (textComponent.text == lines[index])
-            {
-                NextLine();
-            }
-            else
-            {
-                textComponent.text = lines[index];
-                StopAllCoroutines();
-            }
-     */
+        if (lines == null)
+        {
+        lines=NpcUi.Data.Description;
+
+        }
+        if (textComponent.text == lines)
+        {
+            NextLine();
+        }
+        else
+        {
+            textComponent.text = lines;
+            StopAllCoroutines();
+        }
+
     }
     void StartDialogue()
     {
@@ -42,7 +46,7 @@ public class NPCTalk1 : MonoBehaviour
     }
     IEnumerator TypeLine()
     {
-        foreach(char c in lines[index].ToCharArray())
+        foreach(char c in lines.ToCharArray())
         {
             textComponent.text += c;
             yield return new WaitForSeconds(textSpeed); 

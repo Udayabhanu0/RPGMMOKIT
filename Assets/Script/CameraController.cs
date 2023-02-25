@@ -37,6 +37,7 @@ namespace MultiplayerARPG
         {
 
             isFocused = isColliding;
+            CM.virtualCamera1.m_Priority = 1;
         }
 
         void Update()
@@ -69,10 +70,10 @@ namespace MultiplayerARPG
                 CM.virtualCamera1.transform.position = targetPosition;
                 CM.virtualCamera1.transform.position = targetPosition;
                 CM.virtualCamera1.transform.rotation = Quaternion.LookRotation(CM.virtualCamera1.transform.position - player.position);
-               /*
-                CM.virtualCamera.m_UpdateMethod = CinemachineVirtualCameraBase.UpdateMethod.LateUpdate;*/
+                /*
+                 CM.virtualCamera.m_UpdateMethod = CinemachineVirtualCameraBase.UpdateMethod.LateUpdate;*/
                 CM.virtualCamera1.m_Priority = 10;
-                CM.virtualCamera.m_Priority = 1; 
+                CM.virtualCamera.m_Priority = 1;
             }
             else
             {

@@ -29,19 +29,7 @@ MonoBehaviour:
       monster: {fileID: 0}
       amount: 0
     itemAmount:
-      item: {fileID: 11400000, guid: ad97635a026f6d044b6cab6c8e8b77aa, type: 2}
-      amount: 5
-    doNotDecreaseItemsOnQuestComplete: 0
-    npcEntity: {fileID: 0}
-    talkToNpcDialog: {fileID: 0}
-    completeAfterTalked: 0
-    customQuestTask: {fileID: 0}
-  - taskType: 1
-    monsterCharacterAmount:
-      monster: {fileID: 0}
-      amount: 0
-    itemAmount:
-      item: {fileID: 11400000, guid: ad97635a026f6d044b6cab6c8e8b77aa, type: 2}
+      item: {fileID: 11400000, guid: 3d1dcbac68d47bd4f966a8f43a7428f0, type: 2}
       amount: 5
     doNotDecreaseItemsOnQuestComplete: 0
     npcEntity: {fileID: 0}

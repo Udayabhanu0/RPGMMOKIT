@@ -2132,6 +2132,7 @@ GameObject:
   - component: {fileID: 6706043491267573464}
   - component: {fileID: 5813532874861484694}
   - component: {fileID: 4043565568954971897}
+  - component: {fileID: 3217373763804611418}
   m_Layer: 8
   m_Name: Teddy
   m_TagString: PlayerTag
@@ -9034,6 +9035,19 @@ MonoBehaviour:
   dataChannel: 0
   sendOptions: 0
   sendInterval: 0.1
+--- !u!65 &3217373763804611418
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7015994166858453427}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.18109219, y: 0.26843676, z: 0.34}
+  m_Center: {x: -0.048410904, y: 0.15921839, z: 0}
 --- !u!1 &7016029836921246455
 GameObject:
   m_ObjectHideFlags: 0
