@@ -190,93 +190,25 @@ MonoBehaviour:
   input: {fileID: 0}
   title: Npc 01
   titles: []
-  description: 'Hello, I''m Npc 01.
-
-    Try to choose menu below :)'
+  description: Hi i can help you to store your items.
   descriptions: []
   icon: {fileID: 0}
   type: 0
   menus:
-  - title: Menu 01
-    titles: []
-    showConditions: []
-    isCloseMenu: 0
-    dialog: {fileID: 11400000, guid: a789f187bcc9903418934a6631022451, type: 2}
-  - title: Menu 02
-    titles: []
-    showConditions: []
-    isCloseMenu: 0
-    dialog: {fileID: 11400000, guid: f691fd013be809e4e83e80258bec78f8, type: 2}
-  - title: Quests
-    titles: []
-    showConditions: []
-    isCloseMenu: 0
-    dialog: {fileID: 11400000, guid: 2e1622574915294469f568134ebe2c42, type: 2}
-  - title: Shop
-    titles: []
-    showConditions: []
-    isCloseMenu: 0
-    dialog: {fileID: 11400000, guid: a6a3052e6c4f9a24e81299df42cc2ab6, type: 2}
-  - title: Craft Two Hand Sword
-    titles: []
-    showConditions: []
-    isCloseMenu: 0
-    dialog: {fileID: 11400000, guid: 67ffed796ac984b4588fff9b6ae747da, type: 2}
-  - title: Save Respawn Point To Map001
-    titles: []
-    showConditions: []
-    isCloseMenu: 0
-    dialog: {fileID: 11400000, guid: 31e5011dd78915841b5c2a2b5f62b9f6, type: 2}
-  - title: Save Respawn Point To Map002
-    titles: []
-    showConditions: []
-    isCloseMenu: 0
-    dialog: {fileID: 11400000, guid: 1a645b1fdba8429438841d609298cc9b, type: 2}
-  - title: Refine Item
-    titles: []
-    showConditions: []
-    isCloseMenu: 0
-    dialog: {fileID: 11400000, guid: bf8de3f12a1db3b4ea6b052274f92e0e, type: 2}
-  - title: Dismantle Item
-    titles: []
-    showConditions: []
-    isCloseMenu: 0
-    dialog: {fileID: 11400000, guid: 1519ccb4295ffe542ac6fd60ba9e2729, type: 2}
-  - title: Repair Item
-    titles: []
-    showConditions: []
-    isCloseMenu: 0
-    dialog: {fileID: 11400000, guid: 041ff7da2ad85714f8e6eba4eb2f3b80, type: 2}
-  - title: Warp to Map002
-    titles: []
-    showConditions: []
-    isCloseMenu: 0
-    dialog: {fileID: 11400000, guid: 1e6ddfa9f57a22b45a6081c073b30d0f, type: 2}
-  - title: Warp to Map002 (Instance)
-    titles: []
-    showConditions: []
-    isCloseMenu: 0
-    dialog: {fileID: 11400000, guid: 672a769f742ce6d4a93875aa56c446b7, type: 2}
-  - title: Warp to Map_GuildWar
-    titles: []
-    showConditions: []
-    isCloseMenu: 0
-    dialog: {fileID: 11400000, guid: 649b18ba969dcb841979c6380d50ac53, type: 2}
   - title: Player Storage
     titles: []
     showConditions: []
     isCloseMenu: 0
     dialog: {fileID: 11400000, guid: 0bb36d661f68e804192a446937bb2e63, type: 2}
-  - title: Guild Storage
-    titles: []
-    showConditions: []
-    isCloseMenu: 0
-    dialog: {fileID: 11400000, guid: 3479b468c75ae6643b288bf1a2a698a3, type: 2}
   - title: Close
     titles: []
     showConditions: []
     isCloseMenu: 1
     dialog: {fileID: 0}
+  confirmRequirement:
+    gold: 0
+    currencyAmounts: []
+    itemAmounts: []
   quest: {fileID: 0}
   questAcceptedDialog: {fileID: 0}
   questDeclinedDialog: {fileID: 0}
@@ -286,8 +218,9 @@ MonoBehaviour:
   itemCraft:
     craftingItem: {fileID: 0}
     amount: 0
-    craftRequirements: []
     requireGold: 0
+    requireItems: []
+    requireCurrencies: []
   craftDoneDialog: {fileID: 0}
   craftItemWillOverwhelmingDialog: {fileID: 0}
   craftNotMeetRequirementsDialog: {fileID: 0}
@@ -299,6 +232,8 @@ MonoBehaviour:
   warpPortalType: 0
   warpMap: {fileID: 0}
   warpPosition: {x: 0, y: 0, z: 0}
+  warpOverrideRotation: 0
+  warpRotation: {x: 0, y: 0, z: 0}
   warpCancelDialog: {fileID: 0}
   refineItemCancelDialog: {fileID: 0}
   dismantleItemCancelDialog: {fileID: 0}

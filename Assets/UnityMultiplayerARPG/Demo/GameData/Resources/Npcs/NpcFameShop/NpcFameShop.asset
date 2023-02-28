@@ -195,43 +195,27 @@ MonoBehaviour:
   icon: {fileID: 0}
   type: 2
   menus: []
+  confirmRequirement:
+    gold: 0
+    currencyAmounts: []
+    itemAmounts: []
   quest: {fileID: 0}
   questAcceptedDialog: {fileID: 0}
   questDeclinedDialog: {fileID: 0}
   questAbandonedDialog: {fileID: 0}
   questCompletedDialog: {fileID: 0}
   sellItems:
-  - item: {fileID: 11400000, guid: 93c389fe9d40638469bffd9de26d31ba, type: 2}
+  - item: {fileID: 11400000, guid: ad97635a026f6d044b6cab6c8e8b77aa, type: 2}
     sellPrice: 0
     sellPrices:
     - currency: {fileID: 11400000, guid: 02d40019f7430f0459286df57e6b450b, type: 2}
       amount: 10
-  - item: {fileID: 11400000, guid: b64f816f68b7d6a42b7d3857a4b5d931, type: 2}
+  - item: {fileID: 11400000, guid: 4896d19f8423d0a4d9d8a4c055531694, type: 2}
     sellPrice: 0
     sellPrices:
     - currency: {fileID: 11400000, guid: 02d40019f7430f0459286df57e6b450b, type: 2}
       amount: 10
-  - item: {fileID: 11400000, guid: 4519d6286cf69b142ac9894ff8e06a31, type: 2}
-    sellPrice: 0
-    sellPrices:
-    - currency: {fileID: 11400000, guid: 02d40019f7430f0459286df57e6b450b, type: 2}
-      amount: 10
-  - item: {fileID: 11400000, guid: 99ce6353c3a0b344bb452d0b2035feed, type: 2}
-    sellPrice: 0
-    sellPrices:
-    - currency: {fileID: 11400000, guid: 02d40019f7430f0459286df57e6b450b, type: 2}
-      amount: 10
-  - item: {fileID: 11400000, guid: df61cc539bfb0d94aa82ffac5bd01724, type: 2}
-    sellPrice: 0
-    sellPrices:
-    - currency: {fileID: 11400000, guid: 02d40019f7430f0459286df57e6b450b, type: 2}
-      amount: 10
-  - item: {fileID: 11400000, guid: c4f83999d394a4c4cbd65dc4e44885df, type: 2}
-    sellPrice: 0
-    sellPrices:
-    - currency: {fileID: 11400000, guid: 02d40019f7430f0459286df57e6b450b, type: 2}
-      amount: 10
-  - item: {fileID: 11400000, guid: cef25d7570c129340a039818a8fca7c6, type: 2}
+  - item: {fileID: 11400000, guid: 880e1411c60c2b0499239e9004ac07a1, type: 2}
     sellPrice: 0
     sellPrices:
     - currency: {fileID: 11400000, guid: 02d40019f7430f0459286df57e6b450b, type: 2}
@@ -239,8 +223,9 @@ MonoBehaviour:
   itemCraft:
     craftingItem: {fileID: 0}
     amount: 0
-    craftRequirements: []
     requireGold: 0
+    requireItems: []
+    requireCurrencies: []
   craftDoneDialog: {fileID: 0}
   craftItemWillOverwhelmingDialog: {fileID: 0}
   craftNotMeetRequirementsDialog: {fileID: 0}
@@ -252,6 +237,8 @@ MonoBehaviour:
   warpPortalType: 0
   warpMap: {fileID: 0}
   warpPosition: {x: 0, y: 0, z: 0}
+  warpOverrideRotation: 0
+  warpRotation: {x: 0, y: 0, z: 0}
   warpCancelDialog: {fileID: 0}
   refineItemCancelDialog: {fileID: 0}
   dismantleItemCancelDialog: {fileID: 0}

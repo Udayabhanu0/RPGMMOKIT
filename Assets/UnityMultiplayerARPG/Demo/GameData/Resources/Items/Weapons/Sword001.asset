@@ -18,7 +18,7 @@ MonoBehaviour:
   defaultDescription: 
   languageSpecificDescriptions: []
   category: 
-  icon: {fileID: 21300000, guid: 5c5d17ce2c3284940b0f0e5109c69298, type: 3}
+  icon: {fileID: 21300000, guid: fb1ae10a47c45d04c807f8e2b317257b, type: 3}
   sellPrice: 75
   weight: 1
   maxStack: 1
@@ -33,10 +33,6 @@ MonoBehaviour:
     amount: 2
   dismantleReturnCurrencies: []
   cashShopItemGeneratingList: []
-  spriteData:
-    part: 0
-    id: 
-    color: {r: 0, g: 0, b: 0, a: 0}
   itemType: 2
   useItemCooldown: 0
   autoUseKey: 
@@ -71,6 +67,7 @@ MonoBehaviour:
     amount:
       baseAmount: 0
       amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
   weaponType: {fileID: 11400000, guid: 68fba38efbfdced49a5d1e2ae95c0026, type: 2}
   damageAmount:
     damageElement: {fileID: 0}
@@ -81,6 +78,7 @@ MonoBehaviour:
       amountIncreaseEachLevel:
         min: 0.5
         max: 0.75
+      amountIncreaseEachLevelByLevels: []
   harvestDamageAmount:
     baseAmount:
       min: 0
@@ -88,9 +86,27 @@ MonoBehaviour:
     amountIncreaseEachLevel:
       min: 0
       max: 0
+    amountIncreaseEachLevelByLevels: []
   moveSpeedRateWhileReloading: 1
   moveSpeedRateWhileCharging: 1
   moveSpeedRateWhileAttacking: 0.75
+  movementRestrictionWhileReloading:
+    jumpRestricted: 0
+    turnRestricted: 0
+  movementRestrictionWhileCharging:
+    jumpRestricted: 0
+    turnRestricted: 0
+  movementRestrictionWhileAttacking:
+    jumpRestricted: 0
+    turnRestricted: 0
+  attackRestriction:
+    restrictedWhileAirborne: 0
+    restrictedWhileCrouching: 0
+    restrictedWhileCrawling: 0
+  reloadRestriction:
+    restrictedWhileAirborne: 0
+    restrictedWhileCrouching: 0
+    restrictedWhileCrawling: 0
   ammoCapacity: 0
   weaponAbility: {fileID: 0}
   crosshairSetting:
@@ -104,13 +120,20 @@ MonoBehaviour:
     recoilX: 0
     recoilY: 0
   launchClip: {fileID: 0}
+  launchClipSettings: []
   reloadClip: {fileID: 0}
+  reloadClipSettings: []
+  reloadedClip: {fileID: 0}
+  reloadedClipSettings: []
   emptyClip: {fileID: 0}
+  emptyClipSettings: []
   fireType: 0
   fireStagger: {x: 0, y: 0}
   fireSpread: 0
   destroyImmediatelyAfterFired: 0
   buff:
+    tag: 
+    restrictTags: []
     increaseStats:
       baseStats:
         hp: 0
@@ -221,21 +244,27 @@ MonoBehaviour:
     duration:
       baseAmount: 0
       amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
     recoveryHp:
       baseAmount: 0
       amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
     recoveryMp:
       baseAmount: 0
       amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
     recoveryStamina:
       baseAmount: 0
       amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
     recoveryFood:
       baseAmount: 0
       amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
     recoveryWater:
       baseAmount: 0
       amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
     damageOverTimes: []
     ailment: 0
     disallowMove: 0
@@ -254,6 +283,7 @@ MonoBehaviour:
     maxStack:
       baseAmount: 0
       amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
     effects: []
   increaseStats:
     baseStats:

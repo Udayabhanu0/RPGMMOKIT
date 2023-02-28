@@ -44,7 +44,6 @@ namespace MultiplayerARPG
                 uiTextTitle.text = ZString.Format(
                     LanguageManager.GetText(formatKeyTitle),
                     Attribute == null ? LanguageManager.GetUnknowTitle() : Attribute.Title);
-
             }
 
             if (uiTextDescription != null)
@@ -52,7 +51,6 @@ namespace MultiplayerARPG
                 uiTextDescription.text = ZString.Format(
                     LanguageManager.GetText(formatKeyDescription),
                     Attribute == null ? LanguageManager.GetUnknowDescription() : Attribute.Description);
-
             }
 
             if (uiTextAmount != null)
