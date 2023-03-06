@@ -2215,7 +2215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56367cc2ed44f1e49835e9c247771fd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetId: 
+  assetId: 9ae788653c6f20b429210a62ae4adda6
   objectId: 0
   visibleRange: 0
   alwaysVisible: 0
@@ -2344,7 +2344,7 @@ MonoBehaviour:
   miniMapUiTransform: {fileID: 7013248337302187241}
   chatBubbleTransform: {fileID: 6243380352496806816}
   debugDamageLaunchingColor: {r: 0, g: 1, b: 0, a: 0.04}
-  race: {fileID: 0}
+  race: {fileID: 11400000, guid: 857774bcd051d8c4e83216382f26d0cb, type: 2}
   onDead:
     m_PersistentCalls:
       m_Calls: []
@@ -2514,6 +2514,7 @@ MonoBehaviour:
     elementId: 0
     dataChannel: 0
     forOwnerOnly: 1
+  gender: {fileID: 11400000, guid: 085ad0926ff94cf46b073d3cbb947ce3, type: 2}
   characterDatabases:
   - {fileID: 11400000, guid: f604d60cd5eeb76468544d9e839dd859, type: 2}
   controllerPrefab: {fileID: 0}

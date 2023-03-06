@@ -16,7 +16,7 @@ namespace MultiplayerARPG
     {
         [Category("Gather System Settings")]
         public GameObject PopUpObject;
-        public int DetectionRange = 3;
+        public float DetectionRange = 3f;
         public bool playerDetected = false;
 
         public void Awake()

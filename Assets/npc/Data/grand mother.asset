@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0bc493348cdb9474d89497ed882aae38, type: 3}
-  m_Name: Npc Dialog
+  m_Name: grand mother 1
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
   position: {x: 248, y: 8}
@@ -257,7 +257,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0bc493348cdb9474d89497ed882aae38, type: 3}
-  m_Name: Npc Dialog
+  m_Name: grand mother 0
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
   position: {x: -209.40004, y: -148.09999}

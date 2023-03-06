@@ -53,20 +53,21 @@ namespace MultiplayerARPG
 
         private void OnTriggerEnter(Collider other)
         {
-            Debug.Log("hiii");
+          /*  Debug.Log("hiii");*/
             if (other.gameObject.GetComponent<PlayerCharacterEntity>() != null)
             {
                 playerDetected = true;
 
                 if (playerDetected == true)
                 {
+
                     Debug.Log("hii its active now");
                     Cutsence.SetActive(true);
                     CamObject.SetActive(true);
                     PopUpObject.SetActive(true);
                     playableDirector.Play();
                     playerDetected = true;
-
+                    
                 }
             }
         }

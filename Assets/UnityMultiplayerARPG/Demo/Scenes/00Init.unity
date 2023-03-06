@@ -1205,99 +1205,99 @@ MonoBehaviour:
   languageList:
   - languageKey: CAT
     dataList:
-    - key: InvalidItemData
+    - key: UI_ERROR_INVALID_ITEM_DATA
       value: Invalid item data, MEOW~
-    - key: NotFoundCharacter
+    - key: UI_ERROR_CHARACTER_NOT_FOUND
       value: Character not found, MEOW~
-    - key: NotAbleToLoot
+    - key: UI_ERROR_NOT_ABLE_TO_LOOT
       value: Cannot get this item, MEOW~
-    - key: NotEnoughGold
+    - key: UI_ERROR_NOT_ENOUGH_GOLD
       value: Have not enough gold, MEOW~
-    - key: NotEnoughItems
+    - key: UI_ERROR_NOT_ENOUGH_ITEMS
       value: Have not enough items, MEOW~
-    - key: CannotCarryAnymore
+    - key: UI_ERROR_WILL_OVERWHELMING
       value: Cannot carry anymore items, MEOW~
-    - key: RefineItemReachedMaxLevel
+    - key: UI_ERROR_REFINE_ITEM_REACHED_MAX_LEVEL
       value: Item reached max level, MEOW~
-    - key: RefineSuccess
+    - key: UI_REFINE_SUCCESS
       value: Item level up success, MEOW~
-    - key: RefineFail
+    - key: UI_REFINE_FAIL
       value: Item level up fail, MEOW~
-    - key: CharacterIsInAnotherDeal
+    - key: UI_ERROR_CHARACTER_IS_DEALING
       value: Character is in another deal, MEOW~
-    - key: CharacterIsTooFar
+    - key: UI_ERROR_CHARACTER_IS_TOO_FAR
       value: Character is too far, MEOW~
-    - key: CannotAcceptDealingRequest
+    - key: UI_ERROR_CANNOT_ACCEPT_DEALING_REQUEST
       value: Cannot accept dealing request, MEOW~
-    - key: DealingRequestDeclined
+    - key: UI_ERROR_DEALING_REQUEST_DECLINED
       value: Dealing request declined, MEOW~
-    - key: InvalidDealingState
+    - key: UI_ERROR_INVALID_DEALING_STATE
       value: Invalid dealing state, MEOW~
-    - key: DealingCanceled
+    - key: UI_ERROR_DEALING_CANCELED
       value: Dealing canceled, MEOW~
-    - key: PartyInvitationDeclined
+    - key: UI_PARTY_INVITATION_DECLINED
       value: Party invitation declined, MEOW~
-    - key: CannotSendPartyInvitation
+    - key: UI_ERROR_CANNOT_SEND_PARTY_INVITATION
       value: Cannot send party invitation, MEOW~
-    - key: CannotKickPartyMember
+    - key: UI_ERROR_CANNOT_KICK_PARTY_MEMBER
       value: Cannot kick party member, MEOW~
-    - key: CannotKickYourSelfFromParty
+    - key: UI_ERROR_CANNOT_KICK_YOURSELF_FROM_PARTY
       value: Cannot kick yourself from party, MEOW~
-    - key: CannotKickPartyLeader
+    - key: UI_ERROR_CANNOT_KICK_PARTY_LEADER
       value: Cannot kick party leader, MEOW~
-    - key: JoinedAnotherParty
+    - key: UI_ERROR_JOINED_ANOTHER_PARTY
       value: Already joined another party, MEOW~
-    - key: NotJoinedParty
+    - key: UI_ERROR_NOT_JOINED_PARTY
       value: Not joined the party, MEOW~
-    - key: NotPartyLeader
+    - key: UI_ERROR_NOT_PARTY_LEADER
       value: Not a party member, MEOW~
-    - key: CharacterJoinedAnotherParty
+    - key: UI_ERROR_CHARACTER_JOINED_ANOTHER_PARTY
       value: Character already joined another party, MEOW~
-    - key: CharacterNotJoinedParty
+    - key: UI_ERROR_CHARACTER_NOT_JOINED_PARTY
       value: Character not joined the party, MEOW~
-    - key: PartyMemberReachedLimit
+    - key: UI_ERROR_PARTY_MEMBER_REACHED_LIMIT
       value: Party member reached limit, MEOW~
-    - key: GuildInvitationDeclined
+    - key: UI_GUILD_INVITATION_DECLINED
       value: Guild invitation declined, MEOW~
-    - key: CannotSendGuildInvitation
+    - key: UI_ERROR_CANNOT_SEND_GUILD_INVITATION
       value: Cannot send guild invitation, MEOW~
-    - key: CannotKickGuildMember
+    - key: UI_ERROR_CANNOT_KICK_GUILD_MEMBER
       value: Cannot kick guild member, MEOW~
-    - key: CannotKickYourSelfFromGuild
+    - key: UI_ERROR_CANNOT_KICK_YOURSELF_FROM_GUILD
       value: Cannot kick yourself from guild, MEOW~
-    - key: CannotKickGuildLeader
+    - key: UI_ERROR_CANNOT_KICK_GUILD_LEADER
       value: Cannot kick guild leader, MEOW~
-    - key: CannotKickHigherGuildMember
+    - key: UI_ERROR_CANNOT_KICK_HIGHER_GUILD_MEMBER
       value: Cannot kick higher guild member, MEOW~
-    - key: JoinedAnotherGuild
+    - key: UI_ERROR_JOINED_ANOTHER_GUILD
       value: Already joined another guild, MEOW~
-    - key: NotJoinedGuild
+    - key: UI_ERROR_NOT_JOINED_GUILD
       value: Not joined the guild, MEOW~
-    - key: NotGuildLeader
+    - key: UI_ERROR_NOT_GUILD_LEADER
       value: Not a guild member, MEOW~
-    - key: CharacterJoinedAnotherGuild
+    - key: UI_ERROR_CHARACTER_JOINED_ANOTHER_GUILD
       value: Character already joined another guild, MEOW~
-    - key: CharacterNotJoinedGuild
+    - key: UI_ERROR_CHARACTER_NOT_JOINED_GUILD
       value: Character not joined the guild, MEOW~
-    - key: GuildMemberReachedLimit
+    - key: UI_ERROR_GUILD_MEMBER_REACHED_LIMIT
       value: Guild member reached limit, MEOW~
-    - key: GuildRoleNotAvailable
+    - key: UI_ERROR_GUILD_ROLE_NOT_AVAILABLE
       value: Guild role is not available, MEOW~
-    - key: GuildSkillReachedMaxLevel
+    - key: UI_ERROR_GUILD_SKILL_REACHED_MAX_LEVEL
       value: Guild skill is reached max level, MEOW~
-    - key: NoGuildSkillPoint
+    - key: UI_ERROR_NOT_ENOUGH_GUILD_SKILL_POINT
       value: No guild skill point, MEOW~
-    - key: UnknowGameDataTitle
+    - key: UI_UNKNOW_GAME_DATA_TITLE
       value: Unknow, MEOW~
-    - key: UnknowGameDataDescription
+    - key: UI_UNKNOW_GAME_DATA_DESCRIPTION
       value: N/A, MEOW~
-    - key: NotEnoughGoldToDeposit
+    - key: UI_ERROR_NOT_ENOUGH_GOLD_TO_DEPOSIT
       value: Not enough gold to deposit, MEOW~
-    - key: NotEnoughGoldToWithdraw
+    - key: UI_ERROR_NOT_ENOUGH_GOLD_TO_WITHDRAW
       value: Not enough gold to withdraw, MEOW~
-    - key: CannotAccessStorage
+    - key: UI_ERROR_CANNOT_ACCESS_STORAGE
       value: Cannot access storage, MEOW~
-    - key: NoAmmo
+    - key: UI_ERROR_NO_AMMO
       value: No Ammo, MEOW~
     - key: UI_LABEL_DISCONNECTED
       value: Disconnected, MEOW~
@@ -1603,7 +1603,7 @@ MonoBehaviour:
       value: Share exp percentage must be number, MEOW~
     - key: UI_ERROR_INVALID_GUILD_ROLE
       value: Invalid role, MEOW~
-    - key: UI_SUCCESS_CASH_SHOP_BUY
+    - key: UI_CASH_SHOP_ITEM_BOUGHT
       value: Success, let's check your inventory, MEOW~
     - key: UI_DROP_ITEM
       value: Drop Item, MEOW~
@@ -1675,141 +1675,141 @@ MonoBehaviour:
       value: Cannot kick, MEOW~
   - languageKey: ENG
     dataList:
-    - key: ServiceNotAvailable
+    - key: UI_ERROR_SERVICE_NOT_AVAILABLE
       value: Service not available
-    - key: InvalidItemData
+    - key: UI_ERROR_INVALID_ITEM_DATA
       value: Invalid item data
-    - key: NotFoundCharacter
+    - key: UI_ERROR_CHARACTER_NOT_FOUND
       value: Character not found
-    - key: NotAbleToLoot
+    - key: UI_ERROR_NOT_ABLE_TO_LOOT
       value: Cannot get this item
-    - key: NotEnoughGold
+    - key: UI_ERROR_NOT_ENOUGH_GOLD
       value: Have not enough gold
-    - key: NotEnoughItems
+    - key: UI_ERROR_NOT_ENOUGH_ITEMS
       value: Have not enough items
-    - key: CannotCarryAnymore
+    - key: UI_ERROR_WILL_OVERWHELMING
       value: Cannot carry anymore items
-    - key: RefineItemReachedMaxLevel
+    - key: UI_ERROR_REFINE_ITEM_REACHED_MAX_LEVEL
       value: Item reached max level
-    - key: RefineSuccess
+    - key: UI_REFINE_SUCCESS
       value: Item level up success
-    - key: RefineFail
+    - key: UI_REFINE_FAIL
       value: Item level up fail
-    - key: CharacterIsInAnotherDeal
+    - key: UI_ERROR_CHARACTER_IS_DEALING
       value: Character is in another deal
-    - key: CharacterIsTooFar
+    - key: UI_ERROR_CHARACTER_IS_TOO_FAR
       value: Character is too far
-    - key: CannotAcceptDealingRequest
+    - key: UI_ERROR_CANNOT_ACCEPT_DEALING_REQUEST
       value: Cannot accept dealing request
-    - key: DealingRequestDeclined
+    - key: UI_ERROR_DEALING_REQUEST_DECLINED
       value: Dealing request declined
-    - key: InvalidDealingState
+    - key: UI_ERROR_INVALID_DEALING_STATE
       value: Invalid dealing state
-    - key: DealingCanceled
+    - key: UI_ERROR_DEALING_CANCELED
       value: Dealing canceled
-    - key: AnotherCharacterCannotCarryAnymore
+    - key: UI_ERROR_ANOTHER_CHARACTER_WILL_OVERWHELMING
       value: Another character cannot carry anymore items
-    - key: PartyInvitationDeclined
+    - key: UI_PARTY_INVITATION_DECLINED
       value: Party invitation declined
-    - key: CannotSendPartyInvitation
+    - key: UI_ERROR_CANNOT_SEND_PARTY_INVITATION
       value: Cannot send party invitation
-    - key: CannotKickPartyMember
+    - key: UI_ERROR_CANNOT_KICK_PARTY_MEMBER
       value: Cannot kick party member
-    - key: CannotKickYourSelfFromParty
+    - key: UI_ERROR_CANNOT_KICK_YOURSELF_FROM_PARTY
       value: Cannot kick yourself from party
-    - key: CannotKickPartyLeader
+    - key: UI_ERROR_CANNOT_KICK_PARTY_LEADER
       value: Cannot kick party leader
-    - key: JoinedAnotherParty
+    - key: UI_ERROR_JOINED_ANOTHER_PARTY
       value: Already joined another party
-    - key: NotJoinedParty
+    - key: UI_ERROR_NOT_JOINED_PARTY
       value: Not joined the party
-    - key: NotPartyLeader
+    - key: UI_ERROR_NOT_PARTY_LEADER
       value: Not a party member
-    - key: CharacterJoinedAnotherParty
+    - key: UI_ERROR_CHARACTER_JOINED_ANOTHER_PARTY
       value: Character already joined another party
-    - key: CharacterNotJoinedParty
+    - key: UI_ERROR_CHARACTER_NOT_JOINED_PARTY
       value: Character not joined the party
-    - key: PartyMemberReachedLimit
+    - key: UI_ERROR_PARTY_MEMBER_REACHED_LIMIT
       value: Party member reached limit
-    - key: GuildInvitationDeclined
+    - key: UI_GUILD_INVITATION_DECLINED
       value: Guild invitation declined
-    - key: CannotSendGuildInvitation
+    - key: UI_ERROR_CANNOT_SEND_GUILD_INVITATION
       value: Cannot send guild invitation
-    - key: CannotKickGuildMember
+    - key: UI_ERROR_CANNOT_KICK_GUILD_MEMBER
       value: Cannot kick guild member
-    - key: CannotKickYourSelfFromGuild
+    - key: UI_ERROR_CANNOT_KICK_YOURSELF_FROM_GUILD
       value: Cannot kick yourself from guild
-    - key: CannotKickGuildLeader
+    - key: UI_ERROR_CANNOT_KICK_GUILD_LEADER
       value: Cannot kick guild leader
-    - key: CannotKickHigherGuildMember
+    - key: UI_ERROR_CANNOT_KICK_HIGHER_GUILD_MEMBER
       value: Cannot kick higher guild member
-    - key: JoinedAnotherGuild
+    - key: UI_ERROR_JOINED_ANOTHER_GUILD
       value: Already joined another guild
-    - key: NotJoinedGuild
+    - key: UI_ERROR_NOT_JOINED_GUILD
       value: Not joined the guild
-    - key: NotGuildLeader
+    - key: UI_ERROR_NOT_GUILD_LEADER
       value: Not a guild member
-    - key: CharacterJoinedAnotherGuild
+    - key: UI_ERROR_CHARACTER_JOINED_ANOTHER_GUILD
       value: Character already joined another guild
-    - key: CharacterNotJoinedGuild
+    - key: UI_ERROR_CHARACTER_NOT_JOINED_GUILD
       value: Character not joined the guild
-    - key: GuildMemberReachedLimit
+    - key: UI_ERROR_GUILD_MEMBER_REACHED_LIMIT
       value: Guild member reached limit
-    - key: GuildRoleNotAvailable
+    - key: UI_ERROR_GUILD_ROLE_NOT_AVAILABLE
       value: Guild role is not available
-    - key: GuildSkillReachedMaxLevel
+    - key: UI_ERROR_GUILD_SKILL_REACHED_MAX_LEVEL
       value: Guild skill is reached max level
-    - key: NoGuildSkillPoint
+    - key: UI_ERROR_NOT_ENOUGH_GUILD_SKILL_POINT
       value: No guild skill point
-    - key: UnknowGameDataTitle
+    - key: UI_UNKNOW_GAME_DATA_TITLE
       value: Unknow
-    - key: UnknowGameDataDescription
+    - key: UI_UNKNOW_GAME_DATA_DESCRIPTION
       value: N/A
-    - key: NotEnoughGoldToDeposit
+    - key: UI_ERROR_NOT_ENOUGH_GOLD_TO_DEPOSIT
       value: Not enough gold to deposit
-    - key: NotEnoughGoldToWithdraw
+    - key: UI_ERROR_NOT_ENOUGH_GOLD_TO_WITHDRAW
       value: Not enough gold to withdraw
-    - key: CannotAccessStorage
+    - key: UI_ERROR_CANNOT_ACCESS_STORAGE
       value: Cannot access storage
-    - key: NoAmmo
+    - key: UI_ERROR_NO_AMMO
       value: No Ammo
-    - key: NotEnoughMp
+    - key: UI_ERROR_NOT_ENOUGH_MP
       value: Have not enough Mp
-    - key: TooShortGuildName
+    - key: UI_ERROR_GUILD_NAME_TOO_SHORT
       value: Guild name is too short
-    - key: TooLongGuildName
+    - key: UI_ERROR_GUILD_NAME_TOO_LONG
       value: Guild name is too long
-    - key: ExistedGuildName
+    - key: UI_ERROR_GUILD_NAME_EXISTED
       value: Guild name is already existed
-    - key: TooShortGuildRoleName
+    - key: UI_ERROR_GUILD_ROLE_NAME_TOO_SHORT
       value: Guild role name is too short
-    - key: TooLongGuildRoleName
+    - key: UI_ERROR_GUILD_ROLE_NAME_TOO_LONG
       value: Guild role name is too long
-    - key: TooLongGuildMessage
+    - key: UI_ERROR_GUILD_MESSAGE_TOO_LONG
       value: Guild message is too long
-    - key: SkillLevelIsZero
+    - key: UI_ERROR_SKILL_LEVEL_IS_ZERO
       value: Skill not trained yet
-    - key: CannotUseSkillByCurrentWeapon
+    - key: UI_ERROR_CANNOT_USE_SKILL_BY_CURRENT_WEAPON
       value: Cannot use skill by current weapon
-    - key: SkillIsCoolingDown
+    - key: UI_ERROR_SKILL_IS_COOLING_DOWN
       value: Skill is cooling down
-    - key: SkillIsNotLearned
+    - key: UI_ERROR_SKILL_IS_NOT_LEARNED
       value: Skill is not learned
-    - key: NotEnoughLevel
+    - key: UI_ERROR_NOT_ENOUGH_LEVEL
       value: Not enough level
-    - key: NotMatchCharacterClass
+    - key: UI_ERROR_NOT_MATCH_CHARACTER_CLASS
       value: Not match character class
-    - key: NotEnoughAttributeAmounts
+    - key: UI_ERROR_NOT_ENOUGH_ATTRIBUTE_AMOUNTS
       value: Not enough attribute amounts
-    - key: NotEnoughSkillLevels
+    - key: UI_ERROR_NOT_ENOUGH_SKILL_LEVELS
       value: Not enough skill levels
-    - key: NotEnoughStatPoint
+    - key: UI_ERROR_NOT_ENOUGH_STAT_POINT
       value: Not enough stat point
-    - key: NotEnoughSkillPoint
+    - key: UI_ERROR_NOT_ENOUGH_SKILL_POINT
       value: Not enough skill point
-    - key: AttributeReachedMaxAmount
+    - key: UI_ERROR_ATTRIBUTE_REACHED_MAX_AMOUNT
       value: Attribute reached max amount
-    - key: SkillReachedMaxLevel
+    - key: UI_ERROR_SKILL_REACHED_MAX_LEVEL
       value: Skill reached max level
     - key: UI_LABEL_DISCONNECTED
       value: Disconnected
@@ -2121,7 +2121,7 @@ MonoBehaviour:
       value: Share exp percentage must be number
     - key: UI_ERROR_INVALID_GUILD_ROLE
       value: Invalid role
-    - key: UI_SUCCESS_CASH_SHOP_BUY
+    - key: UI_CASH_SHOP_ITEM_BOUGHT
       value: Success, let's check your inventory
     - key: UI_DROP_ITEM
       value: Drop Item
@@ -2239,6 +2239,470 @@ MonoBehaviour:
       value: 'Summon {0} Lv. {1} x {2} (Max: {3}), {4} Secs.'
     - key: UI_FORMAT_SKILL_MOUNT
       value: Mount {0}
+    - key: UI_CASH_SHOP_ITEM_BOUGHT
+      value: Cash shop item purchased
+    - key: UI_DESTROY_ITEM
+      value: Destroy Item
+    - key: UI_DESTROY_ITEM_DESCRIPTION
+      value: Do you want to destroy an items?
+    - key: UI_DISMANTLE_ITEM
+      value: Dismantle Item
+    - key: UI_DISMANTLE_ITEM_DESCRIPTION
+      value: Enter amount of item
+    - key: UI_ENTER_BUILDING_PASSWORD
+      value: Enter password
+    - key: UI_ENTER_BUILDING_PASSWORD_DESCRIPTION
+      value: Enter 6 digits number
+    - key: UI_ENTER_ITEM_AMOUNT
+      value: Enter Amount
+    - key: UI_ENTER_ITEM_AMOUNT_DESCRIPTION
+      value: Enter amount of item
+    - key: UI_ERROR_ACCOUNT_LOGGED_IN_BY_OTHER
+      value: Your account was logged in by other
+    - key: UI_ERROR_ALREADY_CONNECTED_TO_GAME
+      value: Already connected to game server
+    - key: UI_ERROR_ALREADY_CONNECTED_TO_LOBBY
+      value: Already connected to lobby server
+    - key: UI_ERROR_ALREADY_IS_GUILD_LEADER
+      value: You are already a leader
+    - key: UI_ERROR_ALREADY_IS_PARTY_LEADER
+      value: You are already a leader
+    - key: UI_ERROR_ANOTHER_CHARACTER_WILL_OVERWHELMING
+      value: Another character cannot carry all items
+    - key: UI_ERROR_ATTRIBUTE_REACHED_MAX_AMOUNT
+      value: Attribute reached max amount
+    - key: UI_ERROR_BAD_REQUEST
+      value: Bad request
+    - key: UI_ERROR_CANNOT_ACCEPT_DEALING_REQUEST
+      value: Cannot accept dealing request
+    - key: UI_ERROR_CANNOT_ACCEPT_GUILD_REQUEST
+      value: You're not allowed to accept guild request
+    - key: UI_ERROR_CANNOT_ACCESS_STORAGE
+      value: Cannot access storage
+    - key: UI_ERROR_CANNOT_CHANGE_GUILD_LEADER_ROLE
+      value: Cannot change guild leader's role
+    - key: UI_ERROR_CANNOT_DECLINE_GUILD_REQUEST
+      value: You're not allowed to decline guild request
+    - key: UI_ERROR_CANNOT_ENHANCE_SOCKET
+      value: Cannot enhance the item
+    - key: UI_ERROR_CANNOT_EQUIP
+      value: Cannot equip the item
+    - key: UI_ERROR_CANNOT_KICK_GUILD_LEADER
+      value: Cannot kick guild leader
+    - key: UI_ERROR_CANNOT_KICK_GUILD_MEMBER
+      value: Cannot kick guild member
+    - key: UI_ERROR_CANNOT_KICK_HIGHER_GUILD_MEMBER
+      value: Cannot kick higher guild member
+    - key: UI_ERROR_CANNOT_KICK_PARTY_LEADER
+      value: Cannot kick party leader
+    - key: UI_ERROR_CANNOT_KICK_PARTY_MEMBER
+      value: Cannot kick party member
+    - key: UI_ERROR_CANNOT_KICK_YOURSELF_FROM_GUILD
+      value: Cannot kick yourself from guild
+    - key: UI_ERROR_CANNOT_KICK_YOURSELF_FROM_PARTY
+      value: Cannot kick yourself from party
+    - key: UI_ERROR_CANNOT_REFINE
+      value: Cannot refine the item
+    - key: UI_ERROR_CANNOT_REMOVE_ENHANCER
+      value: Cannot remove enhancer item from socket
+    - key: UI_ERROR_CANNOT_REPAIR
+      value: Cannot repair the item
+    - key: UI_ERROR_CANNOT_SEND_GUILD_INVITATION
+      value: Cannot send guild invitation
+    - key: UI_ERROR_CANNOT_SEND_PARTY_INVITATION
+      value: Cannot send party invitation
+    - key: UI_ERROR_CANNOT_USE_SKILL_BY_CURRENT_ARMOR
+      value: Cannot use skill by current armors
+    - key: UI_ERROR_CANNOT_USE_SKILL_BY_CURRENT_VEHICLE
+      value: Cannot use skill by current vehicle
+    - key: UI_ERROR_CANNOT_USE_SKILL_BY_CURRENT_WEAPON
+      value: Cannot use skill by current weapons
+    - key: UI_ERROR_CANNOT_USE_SKILL_WITHOUT_SHIELD
+      value: Cannot use skill without shield
+    - key: UI_ERROR_CASH_PACKAGE_NOT_FOUND
+      value: Cash package not found
+    - key: UI_ERROR_CHARACTER_IS_DEALING
+      value: Character is in another deal
+    - key: UI_ERROR_CHARACTER_IS_TOO_FAR
+      value: Character is too far
+    - key: UI_ERROR_CHARACTER_JOINED_ANOTHER_GUILD
+      value: Character already joined another guild
+    - key: UI_ERROR_CHARACTER_JOINED_ANOTHER_PARTY
+      value: Character already joined another party
+    - key: UI_ERROR_CHARACTER_NOT_FOUND
+      value: Character not found
+    - key: UI_ERROR_CHARACTER_NOT_JOINED_GUILD
+      value: Character not joined the guild
+    - key: UI_ERROR_CHARACTER_NOT_JOINED_PARTY
+      value: Character not joined the party
+    - key: UI_ERROR_CONTENT_NOT_AVAILABLE
+      value: Content is not available
+    - key: UI_ERROR_DEALING_CANCELED
+      value: Dealing canceled
+    - key: UI_ERROR_DEALING_REQUEST_DECLINED
+      value: Dealing request declined
+    - key: UI_ERROR_DISALLOW_SKILL_LEVEL_UP
+      value: Disallow to level up
+    - key: UI_ERROR_EMAIL_ALREADY_IN_USE
+      value: Email is already in use
+    - key: UI_ERROR_EMAIL_NOT_VERIFIED
+      value: Email is not verified
+    - key: UI_ERROR_GUILD_INVITATION_NOT_FOUND
+      value: Guild invitation not found
+    - key: UI_ERROR_GUILD_MEMBER_REACHED_LIMIT
+      value: Guild member reached limit
+    - key: UI_ERROR_GUILD_MESSAGE_TOO_LONG
+      value: Guild message is too long
+    - key: UI_ERROR_GUILD_NAME_EXISTED
+      value: Guild name is already existed
+    - key: UI_ERROR_GUILD_NAME_TOO_LONG
+      value: Guild name is too long
+    - key: UI_ERROR_GUILD_NAME_TOO_SHORT
+      value: Guild name is too short
+    - key: UI_ERROR_GUILD_NOT_FOUND
+      value: Guild not found
+    - key: UI_ERROR_GUILD_ROLE_NAME_TOO_LONG
+      value: Guild role name is too long
+    - key: UI_ERROR_GUILD_ROLE_NAME_TOO_SHORT
+      value: Guild role name is too short
+    - key: UI_ERROR_GUILD_ROLE_NOT_AVAILABLE
+      value: Guild role is not available
+    - key: UI_ERROR_GUILD_SKILL_REACHED_MAX_LEVEL
+      value: Guild skill is reached max level
+    - key: UI_ERROR_IAP_DUPLICATE_TRANSACTION
+      value: Duplicate transaction
+    - key: UI_ERROR_IAP_EXISTING_PURCHASE_PENDING
+      value: Existing purchase pending
+    - key: UI_ERROR_IAP_NOT_INITIALIZED
+      value: In-App Purchasing system not initialized yet
+    - key: UI_ERROR_IAP_PAYMENT_DECLINED
+      value: Payment was declined
+    - key: UI_ERROR_IAP_PRODUCT_UNAVAILABLE
+      value: Product is unavailable
+    - key: UI_ERROR_IAP_PURCHASING_UNAVAILABLE
+      value: Purchasing is unavailable
+    - key: UI_ERROR_IAP_SIGNATURE_INVALID
+      value: Invalid signature
+    - key: UI_ERROR_IAP_UNKNOW
+      value: Unknow
+    - key: UI_ERROR_IAP_USER_CANCELLED
+      value: Purchase was cancelled
+    - key: UI_ERROR_INTERNAL_SERVER_ERROR
+      value: Internal server error
+    - key: UI_ERROR_INVALID_ATTRIBUTE_DATA
+      value: Invalid attribute data
+    - key: UI_ERROR_INVALID_CHARACTER_NAME
+      value: Character name is invalid, allow only a-z, A-Z, 0-9 and _ for character
+        name.
+    - key: UI_ERROR_INVALID_DEALING_STATE
+      value: Invalid dealing state
+    - key: UI_ERROR_INVALID_EMAIL
+      value: Invalid email format
+    - key: UI_ERROR_INVALID_ENHANCER_ITEM_INDEX
+      value: Invalid enhancer item index
+    - key: UI_ERROR_INVALID_EQUIP_POSITION_ARMOR
+      value: Invalid equip position for armor equipment
+    - key: UI_ERROR_INVALID_EQUIP_POSITION_LEFT_HAND
+      value: Invalid equip position for left hand equipment
+    - key: UI_ERROR_INVALID_EQUIP_POSITION_RIGHT_HAND
+      value: Invalid equip position for right hand equipment
+    - key: UI_ERROR_INVALID_EQUIP_POSITION_RIGHT_HAND_OR_LEFT_HAND
+      value: Invalid equip position for right hand or left hand equipment
+    - key: UI_ERROR_INVALID_GUILD_NAME
+      value: Guild name is invalid, allow only a-z, A-Z, 0-9 and _ for guild name.
+    - key: UI_ERROR_INVALID_GUILD_SKILL_DATA
+      value: Invalid guild skill data
+    - key: UI_ERROR_INVALID_ITEM_DATA
+      value: Invalid item data
+    - key: UI_ERROR_INVALID_ITEM_INDEX
+      value: Invalid item index
+    - key: UI_ERROR_INVALID_SKILL_DATA
+      value: Invalid skill data
+    - key: UI_ERROR_INVALID_USER_TOKEN
+      value: Invalid user token
+    - key: UI_ERROR_INVALID_USERNAME
+      value: Username is invalid, allow only a-z, A-Z, 0-9 and _ for username.
+    - key: UI_ERROR_ITEM_NOT_EQUIPMENT
+      value: Item is not a equipment item
+    - key: UI_ERROR_JOINED_ANOTHER_GUILD
+      value: Already joined another guild
+    - key: UI_ERROR_JOINED_ANOTHER_PARTY
+      value: Already joined another party
+    - key: UI_ERROR_MAIL_CLAIM_ALREADY_CLAIMED
+      value: Cannot claim items, it was already claimed
+    - key: UI_ERROR_MAIL_CLAIM_NOT_ALLOWED
+      value: You're not allowed to claim attached items
+    - key: UI_ERROR_MAIL_CLAIM_WILL_OVERWHELMING
+      value: Cannot carry all items
+    - key: UI_ERROR_MAIL_DELETE_NOT_ALLOWED
+      value: You're not allowed to delete the mail
+    - key: UI_ERROR_MAIL_READ_NOT_ALLOWED
+      value: You're not allowed to read the mail
+    - key: UI_ERROR_MAIL_SEND_NO_RECEIVER
+      value: No receiver, you may entered wrong name
+    - key: UI_ERROR_MAIL_SEND_NOT_ALLOWED
+      value: You're not allowed to send mail
+    - key: UI_ERROR_NO_AMMO
+      value: No Ammo
+    - key: UI_ERROR_NO_AVAILABLE_LOBBY
+      value: No available lobby
+    - key: UI_ERROR_NO_AVAILABLE_REALM
+      value: No available realm
+    - key: UI_ERROR_NO_EMPTY_SOCKET
+      value: No empty socket
+    - key: UI_ERROR_NO_ENHANCER
+      value: No enhancer item
+    - key: UI_ERROR_NO_SELECTED_REALM
+      value: Please select realm
+    - key: UI_ERROR_NO_SKILL_TARGET
+      value: No target
+    - key: UI_ERROR_NOT_ABLE_TO_LOOT
+      value: Not allowed to loot
+    - key: UI_ERROR_NOT_ALLOWED
+      value: You're not allowed to do that
+    - key: UI_ERROR_NOT_DEAD
+      value: Cannot respawn
+    - key: UI_ERROR_NOT_ENOUGH_ATTRIBUTE_AMOUNTS
+      value: Not enough attribute amounts
+    - key: UI_ERROR_NOT_ENOUGH_CURRENCY_AMOUNTS
+      value: Not enough currency amounts
+    - key: UI_ERROR_NOT_ENOUGH_GOLD_TO_DEPOSIT
+      value: Not enough gold to deposit
+    - key: UI_ERROR_NOT_ENOUGH_GOLD_TO_WITHDRAW
+      value: Not enough gold to withdraw
+    - key: UI_ERROR_NOT_ENOUGH_GUILD_SKILL_POINT
+      value: Not enough guild skill point
+    - key: UI_ERROR_NOT_ENOUGH_HP
+      value: Not enough Hp
+    - key: UI_ERROR_NOT_ENOUGH_ITEMS
+      value: Not enough items
+    - key: UI_ERROR_NOT_ENOUGH_LEVEL
+      value: Not enough level
+    - key: UI_ERROR_NOT_ENOUGH_MP
+      value: Not enough Mp
+    - key: UI_ERROR_NOT_ENOUGH_SKILL_LEVELS
+      value: Not enough skill levels
+    - key: UI_ERROR_NOT_ENOUGH_SKILL_POINT
+      value: Not enough skill points
+    - key: UI_ERROR_NOT_ENOUGH_SOCKET_ENCHANER
+      value: Have not enough items
+    - key: UI_ERROR_NOT_ENOUGH_STAMINA
+      value: Not enough Stamina
+    - key: UI_ERROR_NOT_ENOUGH_STAT_POINT
+      value: Not enough stat points
+    - key: UI_ERROR_NOT_GUILD_LEADER
+      value: Not a guild leader
+    - key: UI_ERROR_NOT_JOINED_GUILD
+      value: Not joined the guild
+    - key: UI_ERROR_NOT_JOINED_PARTY
+      value: Not joined the party
+    - key: UI_ERROR_NOT_LOGGED_IN
+      value: Not logged in
+    - key: UI_ERROR_NOT_MATCH_CHARACTER_CLASS
+      value: Not match character class
+    - key: UI_ERROR_NOT_PARTY_LEADER
+      value: Not a party leader
+    - key: UI_ERROR_PARTY_INVITATION_NOT_FOUND
+      value: Party invitation not found
+    - key: UI_ERROR_PARTY_MEMBER_CANNOT_ENTER_INSTANCE
+      value: Only party leader can enter instance
+    - key: UI_ERROR_PARTY_MEMBER_REACHED_LIMIT
+      value: Party member reached limit
+    - key: UI_ERROR_PARTY_NOT_FOUND
+      value: Party not found
+    - key: UI_ERROR_REFINE_ITEM_REACHED_MAX_LEVEL
+      value: Item reached max level
+    - key: UI_ERROR_REQUEST_TIMEOUT
+      value: Request timeout
+    - key: UI_ERROR_SERVER_NOT_FOUND
+      value: Server not found
+    - key: UI_ERROR_SERVICE_NOT_AVAILABLE
+      value: Service is not available
+    - key: UI_ERROR_SKILL_IS_COOLING_DOWN
+      value: Skill is cooling down
+    - key: UI_ERROR_SKILL_IS_NOT_LEARNED
+      value: Skill is not learned
+    - key: UI_ERROR_SKILL_LEVEL_IS_ZERO
+      value: Skill not trained yet
+    - key: UI_ERROR_SKILL_REACHED_MAX_LEVEL
+      value: Skill reached max level
+    - key: UI_ERROR_SOCKET_NOT_EMPTY
+      value: Socket is not empty
+    - key: UI_ERROR_STORAGE_NOT_FOUND
+      value: Storage not found
+    - key: UI_ERROR_STORAGE_WILL_OVERWHELMING
+      value: Storage will overwhelming
+    - key: UI_ERROR_USER_BANNED
+      value: Your account was banned
+    - key: UI_ERROR_WILL_OVERWHELMING
+      value: Cannot carry all items
+    - key: UI_ERROR_WRONG_BUILDING_PASSWORD
+      value: Wrong password
+    - key: UI_FORMAT_AVAILABLE_ARMORS
+      value: 'Have to equip: {0}'
+    - key: UI_FORMAT_AVAILABLE_VEHICLES
+      value: 'Have to drive: {0}'
+    - key: UI_FORMAT_CHAT_GLOBAL_WITH_GUILD_NAME
+      value: '<color=white>(GLOBAL) {0}[{2}]: {1}</color>'
+    - key: UI_FORMAT_CHAT_LOCAL_WITH_GUILD_NAME
+      value: '<color=white>(LOCAL) {0}[{2}]: {1}</color>'
+    - key: UI_FORMAT_CHAT_PARTY_WITH_GUILD_NAME
+      value: '<color=cyan>(PARTY) {0}[{2}]: {1}</color>'
+    - key: UI_FORMAT_CHAT_SYSTEM
+      value: <color=orange>{0}</color>
+    - key: UI_FORMAT_CHAT_WHISPER_WITH_GUILD_NAME
+      value: '<color=green>(WHISPER) {0}[{2}]: {1}</color>'
+    - key: UI_FORMAT_CONSUME_HP
+      value: 'Consume Hp: {0}'
+    - key: UI_FORMAT_CONSUME_STAMINA
+      value: 'Consume Stamina: {0}'
+    - key: UI_FORMAT_CORPSE_TITLE
+      value: '{0}''s corpse'
+    - key: UI_FORMAT_CRAFT_DURATION
+      value: 'Duration: {0}'
+    - key: UI_FORMAT_CURRENCY_AMOUNT
+      value: '{0}: {1}'
+    - key: UI_FORMAT_CURRENT_CURRENCY
+      value: '{0}: {1}/{2}'
+    - key: UI_FORMAT_CURRENT_CURRENCY_NOT_ENOUGH
+      value: '{0}: <color=red>{1}/{2}</color>'
+    - key: UI_FORMAT_EXP_RATE
+      value: 'Exp Rate: {0}%'
+    - key: UI_FORMAT_EXP_RATE_RATE
+      value: '% of Exp Rate: {0}%'
+    - key: UI_FORMAT_GENERATE_CAST_SHOP_ITEM_DESCRIPTION
+      value: 'Buy {0} x {1}
+
+
+        {2}'
+    - key: UI_FORMAT_GENERATE_CAST_SHOP_ITEM_TITLE
+      value: '{0} x {1}'
+    - key: UI_FORMAT_GOLD_RATE
+      value: 'Gold Rate: {0}%'
+    - key: UI_FORMAT_GOLD_RATE_RATE
+      value: '% of Gold Rate: {0}%'
+    - key: UI_FORMAT_HP_LEECH_RATE
+      value: 'Hp Leech Rate: {0}%'
+    - key: UI_FORMAT_HP_LEECH_RATE_RATE
+      value: '% of Hp Leech Rate: {0}%'
+    - key: UI_FORMAT_HP_RECOVERY
+      value: 'Hp Recovery: {0}'
+    - key: UI_FORMAT_HP_RECOVERY_RATE
+      value: 'Hp Recovery Rate: {0}%'
+    - key: UI_FORMAT_INVALID_REQUIRE_CLASS
+      value: 'Require Class: <color=red>{0}</color>'
+    - key: UI_FORMAT_LOADED_ASSET_BUNDLES_COUNT
+      value: 'Loaded Files: {0}/{1}'
+    - key: UI_FORMAT_LOADING_ASSET_BUNDLE_FILE_NAME
+      value: 'Loading File: {0}'
+    - key: UI_FORMAT_MAIL_CONTENT
+      value: '{0}'
+    - key: UI_FORMAT_MAIL_SENDER_NAME
+      value: 'From: {0}'
+    - key: UI_FORMAT_MAIL_SENT_DATE
+      value: 'Date: {0}'
+    - key: UI_FORMAT_MAIL_TITLE
+      value: 'Title: {0}'
+    - key: UI_FORMAT_MP_LEECH_RATE
+      value: 'Mp Leech Rate: {0}%'
+    - key: UI_FORMAT_MP_LEECH_RATE_RATE
+      value: '% of Mp Leech Rate: {0}%'
+    - key: UI_FORMAT_MP_RECOVERY
+      value: 'Mp Recovery: {0}'
+    - key: UI_FORMAT_MP_RECOVERY_RATE
+      value: 'Mp Recovery Rate: {0}%'
+    - key: UI_FORMAT_NOTIFY_REWARD_CURRENCY
+      value: Obtain {1} {0}
+    - key: UI_FORMAT_NOTIFY_REWARD_EXP
+      value: Obtain {0} Exp
+    - key: UI_FORMAT_NOTIFY_REWARD_GOLD
+      value: Obtain {0} Gold
+    - key: UI_FORMAT_NOTIFY_REWARD_ITEM
+      value: Obtain {0} x {1} ea
+    - key: UI_FORMAT_QUEST_TASK_TALK_TO_NPC
+      value: Talk to {0}
+    - key: UI_FORMAT_QUEST_TASK_TALK_TO_NPC_COMPLETE
+      value: 'Talk to {0}: Complete'
+    - key: UI_FORMAT_REQUIRE_LEVEL_NOT_ENOUGH
+      value: 'Require Level: <color=red>{0}/{1}</color>'
+    - key: UI_FORMAT_REQUIRE_SKILL_POINT
+      value: 'Require Skill Points: {0}'
+    - key: UI_FORMAT_REQUIRE_SKILL_POINT_NOT_ENOUGH
+      value: 'Require Skill Points: <color=red>{0}/{1}</color>'
+    - key: UI_FORMAT_REWARD_CURRENCY
+      value: 'Reward {0}: {1}'
+    - key: UI_FORMAT_SKIP_TITLE
+      value: '{1}'
+    - key: UI_FORMAT_SKIP_TITLE_PERCENTAGE
+      value: '{1}%'
+    - key: UI_FORMAT_STAMINA_LEECH_RATE
+      value: 'Stamina Leech Rate: {0}%'
+    - key: UI_FORMAT_STAMINA_LEECH_RATE_RATE
+      value: '% of Stamina Leech Rate: {0}%'
+    - key: UI_FORMAT_STAMINA_RECOVERY
+      value: 'Stamina Recovery: {0}'
+    - key: UI_FORMAT_STAMINA_RECOVERY_RATE
+      value: 'Stamina Recovery Rate: {0}%'
+    - key: UI_FRIEND_ADDED
+      value: The character was added to the friend list
+    - key: UI_FRIEND_REMOVED
+      value: The character was removed from the friend list
+    - key: UI_FRIEND_REQUEST
+      value: Friend Request
+    - key: UI_FRIEND_REQUEST_ACCEPTED
+      value: Friend request accepted
+    - key: UI_FRIEND_REQUEST_DECLINED
+      value: Friend request declined
+    - key: UI_FRIEND_REQUEST_DESCRIPTION
+      value: You want to request {0} to be friend?
+    - key: UI_FRIEND_REQUESTED
+      value: Friend request was sent to the character
+    - key: UI_GACHA_OPENED
+      value: Gacha opened
+    - key: UI_GUILD_INVITATION_ACCEPTED
+      value: Guild invitation accepted
+    - key: UI_GUILD_INVITATION_DECLINED
+      value: Guild invitation declined
+    - key: UI_GUILD_REQUEST
+      value: Guild Application
+    - key: UI_GUILD_REQUEST_ACCEPTED
+      value: Guild request accepted
+    - key: UI_GUILD_REQUEST_DECLINED
+      value: Guild request declined
+    - key: UI_GUILD_REQUEST_DESCRIPTION
+      value: You want to request to join guild {0}?
+    - key: UI_GUILD_REQUESTED
+      value: Guild request was sent to the guild
+    - key: UI_ITEM_TYPE_CONSUMABLE
+      value: Consumable
+    - key: UI_MAIL_CLAIMED
+      value: Claimed an items
+    - key: UI_MAIL_DELETED
+      value: Mail deleted
+    - key: UI_MAIL_SENT
+      value: Mail sent
+    - key: UI_MOVE_ITEM_FROM_ITEMS_CONTAINER
+      value: Move From Container
+    - key: UI_MOVE_ITEM_FROM_ITEMS_CONTAINER_DESCRIPTION
+      value: Enter amount of item
+    - key: UI_PARTY_INVITATION_ACCEPTED
+      value: Party invitation accepted
+    - key: UI_PARTY_INVITATION_DECLINED
+      value: Party invitation declined
+    - key: UI_REFINE_FAIL
+      value: Refine fail
+    - key: UI_REFINE_SUCCESS
+      value: Refine success
+    - key: UI_REPAIR_SUCCESS
+      value: Repair success
+    - key: UI_SET_BUILDING_PASSWORD
+      value: Set password
+    - key: UI_SET_BUILDING_PASSWORD_DESCRIPTION
+      value: Enter 6 digits number
+    - key: UI_UNKNOW_GAME_DATA_DESCRIPTION
+      value: N/A
+    - key: UI_UNKNOW_GAME_DATA_TITLE
+      value: Unknow
   newLanguageKey: ENG
   addNewLanguage: 0
   migrateOldGameMessage: 0

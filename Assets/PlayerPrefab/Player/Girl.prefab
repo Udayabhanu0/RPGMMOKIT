@@ -1862,7 +1862,7 @@ MonoBehaviour:
   miniMapUiTransform: {fileID: 5500229070884622157}
   chatBubbleTransform: {fileID: 8909347515856160772}
   debugDamageLaunchingColor: {r: 0, g: 1, b: 0, a: 0.04}
-  race: {fileID: 0}
+  race: {fileID: 11400000, guid: d6fb3a74cf2c2b1419f712a741bae138, type: 2}
   onDead:
     m_PersistentCalls:
       m_Calls: []
@@ -2032,8 +2032,9 @@ MonoBehaviour:
     elementId: 0
     dataChannel: 0
     forOwnerOnly: 1
+  gender: {fileID: 11400000, guid: 8a3e9620764d7d4418c304ee325437d6, type: 2}
   characterDatabases:
-  - {fileID: 11400000, guid: 1f9d2937bcd564b47b49c53b58e4e8af, type: 2}
+  - {fileID: 11400000, guid: f604d60cd5eeb76468544d9e839dd859, type: 2}
   controllerPrefab: {fileID: 0}
   dataId:
     behaviour: {fileID: 0}
@@ -2615,7 +2616,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isIdAssigned: 1
-  id: 2
+  id: 5
   visibleMaterials: []
   invisibleMaterials: []
   fpsMaterials: []
@@ -8501,7 +8502,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isIdAssigned: 1
-  id: 3
+  id: 6
   visibleMaterials: []
   invisibleMaterials: []
   fpsMaterials: []

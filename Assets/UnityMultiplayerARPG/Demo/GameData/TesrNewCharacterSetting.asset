@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dbe1936b7013c64ab22eab9d84671e0, type: 3}
   m_Name: TesrNewCharacterSetting
   m_EditorClassIdentifier: 
-  startGold: 2000
+  startGold: 2147483647
   startItems:
   - item: {fileID: 11400000, guid: 71c16926d2dc33343ab0727be3d5341e, type: 2}
     amount: 1

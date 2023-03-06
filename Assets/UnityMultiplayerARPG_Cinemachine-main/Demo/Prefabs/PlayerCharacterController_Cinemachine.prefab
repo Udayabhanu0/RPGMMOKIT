@@ -97,8 +97,8 @@ MonoBehaviour:
   zoomSpeed: 2.7
   zoomSpeedScale: 1
   zoomSmoothTime: 0.25
-  zoomMin: 10
-  zoomMax: 20
+  zoomMin: 30
+  zoomMax: 50
 --- !u!114 &141415441504356250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114,6 +114,7 @@ MonoBehaviour:
   CM: {fileID: -6616639161349547241}
   player: {fileID: 0}
   NPC: {fileID: 0}
+  pos: 3
   height: 6
   distance: 20
   transitionSpeed: 5
