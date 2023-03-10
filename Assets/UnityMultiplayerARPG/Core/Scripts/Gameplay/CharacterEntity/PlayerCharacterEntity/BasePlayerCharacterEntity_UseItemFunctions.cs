@@ -1,4 +1,5 @@
 ﻿using LiteNetLibManager;
+using System;
 using UnityEngine;
 
 namespace MultiplayerARPG
@@ -35,6 +36,11 @@ namespace MultiplayerARPG
             usableItem.UseItem(this, itemIndex, tempCharacterItem);
             LastUseItemTimes[itemDataId] = time;
 #endif
+        }
+
+        public static implicit operator GameObject(BasePlayerCharacterEntity v)
+        {
+            throw new NotImplementedException();
         }
     }
 }
