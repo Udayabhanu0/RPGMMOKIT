@@ -9735,7 +9735,13 @@ MonoBehaviour:
   warpToPosition: {x: 0, y: 0, z: 0}
   warpOverrideRotation: 0
   warpToRotation: {x: 0, y: 0, z: 0}
-  warpPointsByCondition: []
+  warpPointsByCondition:
+  - forFaction: {fileID: 0}
+    warpPortalType: 0
+    warpToMapInfo: {fileID: 11400000, guid: 81e4730004ac7574c8d1e3696814835f, type: 2}
+    warpToPosition: {x: 0, y: 0, z: 0}
+    warpOverrideRotation: 0
+    warpToRotation: {x: 0, y: 0, z: 0}
 --- !u!65 &65075795354217550
 BoxCollider:
   m_ObjectHideFlags: 0

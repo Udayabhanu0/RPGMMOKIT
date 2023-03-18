@@ -86,7 +86,7 @@ MonoBehaviour:
   virtualCamera: {fileID: 179908657754366620}
   virtualCamera1: {fileID: 6934988543792191506}
   pitchAxisName: Mouse Y
-  pitchRotateSpeed: 2.98
+  pitchRotateSpeed: 2
   pitchRotateSpeedScale: 1
   pitchBottomClamp: -30
   pitchTopClamp: 70
@@ -97,8 +97,8 @@ MonoBehaviour:
   zoomSpeed: 2.7
   zoomSpeedScale: 1
   zoomSmoothTime: 0.25
-  zoomMin: 30
-  zoomMax: 50
+  zoomMin: 20
+  zoomMax: 30
 --- !u!114 &141415441504356250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106,19 +106,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1287010141937558}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e7e54c663eae5274f81080b3dbebb10d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minDistance: 2
+  npcTag: NpcTag
   CM: {fileID: -6616639161349547241}
-  player: {fileID: 0}
-  NPC: {fileID: 0}
-  pos: 3
-  height: 6
-  distance: 20
-  transitionSpeed: 5
-  TargetPos: {fileID: 7557724864841197872}
+  detectedNPCs: []
 --- !u!1 &3244168973244241463
 GameObject:
   m_ObjectHideFlags: 0
@@ -129,7 +125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4108867139440270430}
   - component: {fileID: 4777044017639255785}
-  - component: {fileID: 8600855992982776941}
+  - component: {fileID: 8765048692157759773}
   m_Layer: 0
   m_Name: cm
   m_TagString: Untagged
@@ -164,7 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &8600855992982776941
+--- !u!114 &8765048692157759773
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -173,21 +169,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 3244168973244241463}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd6043bde05a7fc4cba197d06915c1e3, type: 3}
+  m_Script: {fileID: 11500000, guid: 36d1163fa822e8b418a0a603ec078d5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Damping: {x: 0.1, y: 0.5, z: 0.3}
-  ShoulderOffset: {x: 0, y: 0.75, z: 0}
-  VerticalArmLength: 0
-  CameraSide: 1
-  CameraDistance: 2
-  CameraCollisionFilter:
-    serializedVersion: 2
-    m_Bits: 24577
-  IgnoreTag: 
-  CameraRadius: 0.001
-  DampingIntoCollision: 0
-  DampingFromCollision: 2
+  m_Damping: 0
 --- !u!1 &4102558234373044413
 GameObject:
   m_ObjectHideFlags: 0
@@ -393,7 +378,7 @@ Camera:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 32768
-  m_RenderingPath: 1
+  m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
@@ -444,8 +429,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5937876241382027256}
-  m_LocalRotation: {x: 0.25501263, y: 0.16504997, z: -0.044225007, w: 0.9517201}
-  m_LocalPosition: {x: 719.7722, y: 84.38401, z: 1102.6583}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -469,7 +454,7 @@ Camera:
   m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
+  m_FocalLength: 20.78461
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0

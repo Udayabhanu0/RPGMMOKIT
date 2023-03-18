@@ -896,14 +896,15 @@ MonoBehaviour:
   - layerIndex: 0
   ignoreRaycastLayers:
   - layerIndex: 11
+  - layerIndex: 22
   itemAppearDuration: 60
   itemLootLockDuration: 5
-  canPickupItemsWhichDropsByPlayersImmediately: 0
+  canPickupItemsWhichDropsByPlayersImmediately: 1
   dealingRequestDuration: 5
   disableDealing: 0
   pickUpItemDistance: 2
   dropDistance: 1
-  conversationDistance: 3
+  conversationDistance: 32
   localChatDistance: 10
   combatTextDistance: 20
   partyShareExpDistance: 0

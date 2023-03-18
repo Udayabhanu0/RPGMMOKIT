@@ -38,7 +38,7 @@ MonoBehaviour:
   - mapInfo: {fileID: 11400000, guid: 81e4730004ac7574c8d1e3696814835f, type: 2}
     warpPortals:
     - entityPrefab: {fileID: 0}
-      position: {x: 0, y: 0, z: 3}
+      position: {x: -223.1346, y: 25, z: -236.8171}
       rotation: {x: 0, y: 0, z: 0}
       warpPortalType: 0
       warpToMapInfo: {fileID: 11400000, guid: 81e4730004ac7574c8d1e3696814835f, type: 2}

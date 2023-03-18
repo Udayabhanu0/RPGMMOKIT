@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432ed403b30d5804bb2b9150a7426abb, type: 3}
+  m_Name: Snowmap
+  m_EditorClassIdentifier: 
+  id: 
+  defaultTitle: 
+  languageSpecificTitles: []
+  defaultDescription: 
+  languageSpecificDescriptions: []
+  category: 
+  icon: {fileID: 0}
+  scene:
+    sceneAsset: {fileID: 102900000, guid: 787fd373c2f761846bc58d59bdca25e4, type: 3}
+    sceneName: Jungle
+  startPosition: {x: 733.7045, y: 80.01, z: 1104.668}
+  startRotation: {x: 0, y: 0, z: 0}
+  deadY: -100
+  disableDealing: 0
+  playerDeadDropsEquipWeapons: 0
+  playerDeadDropsEquipItems: 0
+  playerDeadDropsNonEquipItems: 0
+  excludeItems: []
+  excludeAmmoTypes: []
+  excludeArmorTypes: []
+  excludeWeaponTypes: []
+  excludeJunk: 0
+  excludeArmor: 0
+  excludeShield: 0
+  excludeWeapon: 0
+  excludePotion: 0
+  excludeAmmo: 0
+  excludeBuilding: 0
+  excludePet: 0
+  excludeSocketEnhancer: 0
+  excludeMount: 0
+  excludeSkill: 0
+  minimapSprite: {fileID: 21300000, guid: ba4e34c82b9820341804854ddc3dd405, type: 3}
+  minimapPosition: {x: 0, y: 0, z: 0}
+  minimapBoundsWidth: 1403.1687
+  minimapBoundsLength: 1403.1687
+  minimapOrthographicSize: 701.58435
+  canReturnToSavePoint: 1
+  pvpMode: 1
+  respawnPointsByCondition:
+  - forFaction: {fileID: 0}
+    warpPortalType: 0
+    warpToMapInfo: {fileID: 11400000}
+    warpToPosition: {x: 0, y: 2, z: 0}
+    warpOverrideRotation: 1
+    warpToRotation: {x: 0, y: 0, z: 0}

@@ -180,6 +180,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1fdbfbd15c3ab674bba487c183dfb99d, type: 2}
   - {fileID: 11400000, guid: 31b3c9ca2358f3748bbacd9bea3ad525, type: 2}
   mapInfos:
+  - {fileID: 11400000, guid: 070dc6c4566210f43899f1ff8f81a0e2, type: 2}
+  - {fileID: 11400000, guid: 48a6e9a92d913a64fa58be9019d90abf, type: 2}
   - {fileID: 11400000, guid: 81e4730004ac7574c8d1e3696814835f, type: 2}
   - {fileID: 11400000, guid: 9da28da85b5391b4b95295bd3b3725f1, type: 2}
   - {fileID: 11400000, guid: 9da28da85b5391b4b95295bd3b3725f1, type: 2}
