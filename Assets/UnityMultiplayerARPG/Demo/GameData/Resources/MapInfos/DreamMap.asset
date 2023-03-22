@@ -13,12 +13,23 @@ MonoBehaviour:
   m_Name: DreamMap
   m_EditorClassIdentifier: 
   id: 
-  defaultTitle: 
+  defaultTitle: Play song
   languageSpecificTitles: []
   defaultDescription: 
   languageSpecificDescriptions: []
   category: 
   icon: {fileID: 0}
+  defaultMusic:
+  - uniqueId: 
+    audioClip: {fileID: 8300000, guid: 34d0a8d459df716418c7304bd1ddcd64, type: 3}
+    audioVolume: 0.233
+  - uniqueId: 
+    audioClip: {fileID: 8300000, guid: 110611b62d8a4d445b5eb2f2c779a3f5, type: 3}
+    audioVolume: 0.233
+  - uniqueId: 
+    audioClip: {fileID: 8300000, guid: 032091fd209b76848821e525074d30e7, type: 3}
+    audioVolume: 0.233
+  music: []
   scene:
     sceneAsset: {fileID: 102900000, guid: 72c9bd8956a6b6d4dbf84e2a19cd22dc, type: 3}
     sceneName: DreamMap
@@ -50,11 +61,11 @@ MonoBehaviour:
   minimapBoundsLength: 1403.1687
   minimapOrthographicSize: 701.58435
   canReturnToSavePoint: 1
-  pvpMode: 1
+  pvpMode: 0
   respawnPointsByCondition:
   - forFaction: {fileID: 0}
     warpPortalType: 0
     warpToMapInfo: {fileID: 11400000}
     warpToPosition: {x: 733.70447, y: 80.01, z: 1104.6676}
-    warpOverrideRotation: 0
+    warpOverrideRotation: 1
     warpToRotation: {x: 0, y: 0, z: 0}

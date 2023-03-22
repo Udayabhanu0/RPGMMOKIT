@@ -695,7 +695,7 @@ PlayerSettings:
   webGLDecompressionFallback: 0
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: UNITY_SERVER
+    Android: UNITY_SERVER;USE_TEXT_MASH_PRO
     Standalone: UNITY_SERVER
     iPhone: NO_GPGS
   additionalCompilerArguments: {}
