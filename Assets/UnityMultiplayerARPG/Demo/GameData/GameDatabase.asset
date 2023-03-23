@@ -23,6 +23,7 @@ MonoBehaviour:
   - {fileID: 114355961751498552, guid: fbe9b355dd4e810409312de38efbae6e, type: 3}
   - {fileID: 5503484860487485313, guid: 0586cf25f965f3a4fb8545233fd5f6eb, type: 3}
   vehicleEntities:
+  - {fileID: 8210143491478991518, guid: 659af546f96788a469b7c5daec70fb94, type: 3}
   - {fileID: 114414903903199864, guid: ff9787a13f67d204f9931790d6db8e1d, type: 3}
   - {fileID: 301155592432840711, guid: 43124915179468545a9c91d554b2f5e7, type: 3}
   otherNetworkObjects: []

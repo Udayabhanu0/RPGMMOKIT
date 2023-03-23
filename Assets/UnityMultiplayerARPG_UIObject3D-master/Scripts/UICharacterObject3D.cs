@@ -26,7 +26,7 @@ namespace UI.ThreeDimensional
 			UnregisterOwningCharacterEvents();
 		}
 
-		public override void SetupTarget()
+		protected override void SetupTarget()
 		{
 			//set ObjectPrefab to PlayingCharacterEntity
 			if (!GameInstance.PlayingCharacterEntity) return;

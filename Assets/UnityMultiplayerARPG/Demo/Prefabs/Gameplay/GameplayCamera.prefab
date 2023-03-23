@@ -13,6 +13,11 @@ GameObject:
   - component: {fileID: 114548782499701980}
   - component: {fileID: 114185086765178122}
   - component: {fileID: 4040461919758850213}
+  - component: {fileID: 3564873434029013479}
+  - component: {fileID: 5044086675158701366}
+  - component: {fileID: -4550893116436873756}
+  - component: {fileID: -153725974528645196}
+  - component: {fileID: -587153469246243078}
   m_Layer: 0
   m_Name: GameplayCamera
   m_TagString: MainCamera
@@ -27,8 +32,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1278824955568960}
-  m_LocalRotation: {x: 0.2344901, y: 0.65393364, z: -0.22437857, w: 0.68340284}
-  m_LocalPosition: {x: -11.828567, y: 9.959396, z: -0.5215558}
+  m_LocalRotation: {x: 0.19052607, y: -0.3990465, z: 0.0851513, w: 0.89286673}
+  m_LocalPosition: {x: 20.404308, y: 13.845623, z: -18.267704}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -76,7 +81,7 @@ Camera:
   m_HDR: 0
   m_AllowMSAA: 1
   m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
+  m_ForceIntoRT: 1
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
@@ -94,21 +99,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetCamera: {fileID: 20186615803325660}
   target: {fileID: 0}
-  targetOffset: {x: 0, y: 0.75, z: 0}
+  targetOffset: {x: 0, y: 1.6, z: 0}
   smoothFollow: 1
   followSmoothing: 10
-  xRotation: 37.876377
-  yRotation: 87.475296
+  xRotation: 24.091022
+  yRotation: -48.162342
   useTargetYRotation: 0
-  zoomDistance: 15
+  zoomDistance: 30
   zoomByAspectRatio: 0
   zoomByAspectRatioSettings:
   - width: 16
     height: 9
-    zoomDistance: 0.0001
+    zoomDistance: 5
   - width: 16
     height: 10
-    zoomDistance: 1.75
+    zoomDistance: 6
   - width: 3
     height: 2
     zoomDistance: 3
@@ -126,9 +131,9 @@ MonoBehaviour:
   xRotationAxisName: Mouse Y
   yRotationAxisName: Mouse X
   zoomAxisName: Mouse ScrollWheel
-  updateRotation: 1
-  updateRotationX: 0
-  updateRotationY: 0
+  updateRotation: 0
+  updateRotationX: 1
+  updateRotationY: 1
   updateZoom: 1
   limitXRotation: 1
   minXRotation: 0
@@ -145,11 +150,11 @@ MonoBehaviour:
   rotationSpeed: 2.86
   rotationSpeedScale: 0.242
   limitZoomDistance: 1
-  minZoomDistance: 15
-  maxZoomDistance: 20
+  minZoomDistance: 25
+  maxZoomDistance: 30
   smoothZoom: 1
   zoomDeacceleration: 10
-  startZoomDistance: 10
+  startZoomDistance: 19
   zoomSpeed: 5
   zoomSpeedScale: 0.675
   enableAimAssist: 1
@@ -197,12 +202,129 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7e54c663eae5274f81080b3dbebb10d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDistance: 3
+  minDistance: 2.45
   npcTag: NpcTag
   mainCamera: {fileID: 20186615803325660}
   npcCamera: {fileID: 1748056810828249363}
-  transitionDuration: 0.5
   detectedNPCs: []
+  npcCameraPositionOffset: {x: 0, y: 2, z: -5}
+  npcCameraRotationOffset: {x: 20, y: 0, z: 0}
+--- !u!114 &3564873434029013479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278824955568960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bb42831ee5422f409e7f24f9e7488ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stage: 1
+  renderingStrategy: 0
+  renderingMode: 0
+  outlineLayerMask: -1
+  primaryBufferSizeMode: 0
+  primaryRendererScale: 1
+  primarySizeReference: 800
+  blurShift: 1
+  dilateShift: 1
+  dilateIterations: 1
+  dilateQuality: 0
+  blurIterations: 1
+  blurType: 3
+--- !u!114 &5044086675158701366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278824955568960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bb42831ee5422f409e7f24f9e7488ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stage: 1
+  renderingStrategy: 1
+  renderingMode: 0
+  outlineLayerMask: -1
+  primaryBufferSizeMode: 0
+  primaryRendererScale: 1
+  primarySizeReference: 800
+  blurShift: 1
+  dilateShift: 1
+  dilateIterations: 2
+  dilateQuality: 0
+  blurIterations: 2
+  blurType: 4
+--- !u!114 &-4550893116436873756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278824955568960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bb42831ee5422f409e7f24f9e7488ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stage: 1
+  renderingStrategy: 0
+  renderingMode: 0
+  outlineLayerMask: -1
+  primaryBufferSizeMode: 3
+  primaryRendererScale: 1
+  primarySizeReference: 800
+  blurShift: 1
+  dilateShift: 1
+  dilateIterations: 4
+  dilateQuality: 0
+  blurIterations: 1
+  blurType: 1
+--- !u!114 &-153725974528645196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278824955568960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bb42831ee5422f409e7f24f9e7488ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stage: 1
+  renderingStrategy: 0
+  renderingMode: 0
+  outlineLayerMask: -1
+  primaryBufferSizeMode: 0
+  primaryRendererScale: 0.75
+  primarySizeReference: 800
+  blurShift: 2
+  dilateShift: 2
+  dilateIterations: 2
+  dilateQuality: 0
+  blurIterations: 5
+  blurType: 4
+--- !u!114 &-587153469246243078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278824955568960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c49b4cc203aa6414fae5c798d1d0e7d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_MaxRayIntersections: 0
 --- !u!1 &1875850924656240
 GameObject:
   m_ObjectHideFlags: 0

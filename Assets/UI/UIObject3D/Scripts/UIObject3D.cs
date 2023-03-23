@@ -15,7 +15,7 @@ namespace UI.ThreeDimensional
 {
     [RequireComponent(typeof(RectTransform)), DisallowMultipleComponent, ExecuteInEditMode]
     [AddComponentMenu("UI/UIObject3D/UIObject3D")]
-    public class UIObject3D : MonoBehaviour
+   abstract  public class UIObject3D : MonoBehaviour
     {
         [Header("Target"), SerializeField]
         private Transform _ObjectPrefab = null;
@@ -842,7 +842,7 @@ namespace UI.ThreeDimensional
             }
         }
 
-        public virtual void SetupTarget()
+        protected virtual void SetupTarget()
         {
             if (_target == null)
             {
