@@ -16,6 +16,7 @@ public class CameraControllersvc : MonoBehaviour
     public List<GameObject> detectedNPCs = new List<GameObject>();
     public Vector3 npcCameraPositionOffset = new Vector3(0f, 2f, -5f);
     public Vector3 npcCameraRotationOffset = new Vector3(20f, 0f, 0f);
+    public float cameraTransitionSpeed = 5f;
 
     void Start()
     {
@@ -52,14 +53,14 @@ public class CameraControllersvc : MonoBehaviour
             }
         }
 
-        // Switch to NPC camera if close enough
+        // Smoothly switch to NPC camera if close enough
         if (currentTarget != null && closestDistance < minDistance && !usingNpcCamera)
         {
             usingNpcCamera = true;
             mainCamera.enabled = false;
             npcCamera.enabled = true;
         }
-        // Switch back to main camera if too far away
+        // Smoothly switch back to main camera if too far away
         else if ((currentTarget == null || closestDistance >= minDistance) && usingNpcCamera)
         {
             usingNpcCamera = false;
@@ -67,13 +68,15 @@ public class CameraControllersvc : MonoBehaviour
             npcCamera.enabled = false;
         }
 
-        // Zoom in on closest NPC if close enough
+        // Smoothly transition camera position and rotation based on NPC position
         if (usingNpcCamera)
         {
-            // Set camera position and rotation based on NPC position
-            npcCamera.transform.position = currentTarget.transform.position + npcCameraPositionOffset;
-            npcCamera.transform.rotation = Quaternion.Euler(npcCameraRotationOffset);
-            npcCamera.transform.LookAt(currentTarget.transform);
+            Vector3 targetPosition = currentTarget.transform.position + npcCameraPositionOffset;
+            Quaternion targetRotation = Quaternion.Euler(npcCameraRotationOffset);
+
+            npcCamera.transform.position = Vector3.Lerp(npcCamera.transform.position, targetPosition, Time.deltaTime * cameraTransitionSpeed);
+            npcCamera.transform.rotation = Quaternion.Lerp(npcCamera.transform.rotation, targetRotation, Time.deltaTime * cameraTransitionSpeed);
+
             float distanceToNPC = Vector3.Distance(npcCamera.transform.position, currentTarget.transform.position);
             float npcFOV = Mathf.Lerp(60f, 20f, distanceToNPC / minDistance);
             npcCamera.fieldOfView = Mathf.Lerp(npcCamera.fieldOfView, npcFOV, Time.deltaTime * 5f);
@@ -81,7 +84,7 @@ public class CameraControllersvc : MonoBehaviour
         else
         {
             mainCamera.transform.rotation = Quaternion.identity;
-            mainCamera.fieldOfView = Mathf.Lerp(mainCamera.fieldOfView, defaultFOV, Time.deltaTime * 5f);
+            mainCamera.fieldOfView = Mathf.Lerp(mainCamera.fieldOfView, defaultFOV, Time.deltaTime * cameraTransitionSpeed);
         }
     }
 }

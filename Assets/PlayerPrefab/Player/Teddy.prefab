@@ -292,7 +292,7 @@ MonoBehaviour:
   drawingMode: 1
   outlineLayer: 2
   outlineTargets:
-  - IsVisible: 1
+  - IsVisible: 0
     CutoutMask: 8
     edgeDilateAmount: 5
     frontEdgeDilateAmount: 5
@@ -340,13 +340,13 @@ MonoBehaviour:
       - PropertyName: _PublicGapSize
         Property:
           ColorValue: {r: 1, g: 0, b: 0, a: 1}
-          FloatValue: 0.2
+          FloatValue: -0.135
           VectorValue: {x: 0, y: 0, z: 0, w: 0}
           PropertyType: 3
       - PropertyName: _PublicSoftness
         Property:
           ColorValue: {r: 1, g: 0, b: 0, a: 1}
-          FloatValue: 0.75
+          FloatValue: 0.97
           VectorValue: {x: 0, y: 0, z: 0, w: 0}
           PropertyType: 3
       - PropertyName: _PublicSpeed
@@ -369,12 +369,12 @@ MonoBehaviour:
           PropertyType: 3
       - PropertyName: _PublicGapColor
         Property:
-          ColorValue: {r: 1, g: 0, b: 0, a: 0.2}
+          ColorValue: {r: 1, g: 0.9948131, b: 0, a: 0.2}
           FloatValue: 0.2
           VectorValue: {x: 0, y: 0, z: 0, w: 0}
           PropertyType: 0
   frontParameters:
-    enabled: 1
+    enabled: 0
     color: {r: 0, g: 0, b: 0, a: 1}
     dilateShift: 0.68
     blurShift: 1
