@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432ed403b30d5804bb2b9150a7426abb, type: 3}
+  m_Name: natureMap
+  m_EditorClassIdentifier: 
+  id: 
+  defaultTitle: Play song
+  languageSpecificTitles: []
+  defaultDescription: 
+  languageSpecificDescriptions: []
+  category: 
+  icon: {fileID: 0}
+  defaultMusic:
+  - uniqueId: 
+    audioClip: {fileID: 8300000, guid: 34d0a8d459df716418c7304bd1ddcd64, type: 3}
+    audioVolume: 0.233
+  - uniqueId: 
+    audioClip: {fileID: 8300000, guid: 110611b62d8a4d445b5eb2f2c779a3f5, type: 3}
+    audioVolume: 0.233
+  - uniqueId: 
+    audioClip: {fileID: 8300000, guid: 032091fd209b76848821e525074d30e7, type: 3}
+    audioVolume: 0.233
+  music: []
+  scene:
+    sceneAsset: {fileID: 102900000, guid: d57973a1bebdd054cbe0a992d93ba9b1, type: 3}
+    sceneName: NatureMap
+  startPosition: {x: 0, y: 0, z: 0}
+  startRotation: {x: 0, y: 0, z: 0}
+  deadY: -100
+  disableDealing: 0
+  playerDeadDropsEquipWeapons: 0
+  playerDeadDropsEquipItems: 0
+  playerDeadDropsNonEquipItems: 0
+  excludeItems: []
+  excludeAmmoTypes: []
+  excludeArmorTypes: []
+  excludeWeaponTypes: []
+  excludeJunk: 0
+  excludeArmor: 0
+  excludeShield: 0
+  excludeWeapon: 0
+  excludePotion: 0
+  excludeAmmo: 0
+  excludeBuilding: 0
+  excludePet: 0
+  excludeSocketEnhancer: 0
+  excludeMount: 0
+  excludeSkill: 0
+  minimapSprite: {fileID: 21300000, guid: f76501ad46e841949b2e0efa402949bd, type: 3}
+  minimapPosition: {x: 195.11865, y: 0, z: -379.91504}
+  minimapBoundsWidth: 7661.159
+  minimapBoundsLength: 6639.542
+  minimapOrthographicSize: 3830.5796
+  canReturnToSavePoint: 1
+  pvpMode: 0
+  respawnPointsByCondition:
+  - forFaction: {fileID: 0}
+    warpPortalType: 0
+    warpToMapInfo: {fileID: 11400000}
+    warpToPosition: {x: 733.70447, y: 80.01, z: 1104.6676}
+    warpOverrideRotation: 1
+    warpToRotation: {x: 0, y: 0, z: 0}

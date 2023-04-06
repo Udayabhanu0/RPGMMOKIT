@@ -18,7 +18,9 @@ GameObject:
   - component: {fileID: -4550893116436873756}
   - component: {fileID: -153725974528645196}
   - component: {fileID: -587153469246243078}
-  m_Layer: 0
+  - component: {fileID: 3931893718475287689}
+  - component: {fileID: 5575366241628854235}
+  m_Layer: 22
   m_Name: GameplayCamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -32,8 +34,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1278824955568960}
-  m_LocalRotation: {x: 0.25561172, y: -0.6763769, z: 0.27234098, w: 0.6348286}
-  m_LocalPosition: {x: 17.988493, y: 18.923738, z: 1.1411514}
+  m_LocalRotation: {x: 0.21348621, y: -0.4914289, z: 0.12565298, w: 0.83494467}
+  m_LocalPosition: {x: 20.712637, y: 18.501534, z: -8.183037}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -73,7 +75,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4094775
+    m_Bits: 33454903
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -99,11 +101,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetCamera: {fileID: 20186615803325660}
   target: {fileID: 0}
-  targetOffset: {x: 0, y: 1.6, z: 0}
+  targetOffset: {x: 2.9, y: 6.42, z: -0.17}
   smoothFollow: 1
   followSmoothing: 10
-  xRotation: 43.864048
-  yRotation: -93.62985
+  xRotation: 28.685232
+  yRotation: -60.96014
   useTargetYRotation: 0
   zoomDistance: 25
   zoomByAspectRatio: 0
@@ -128,8 +130,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   wallHitQueryTriggerInteraction: 0
-  xRotationAxisName: 
-  yRotationAxisName: 
+  xRotationAxisName: Mouse Y
+  yRotationAxisName: Mouse X
   zoomAxisName: Mouse ScrollWheel
   updateRotation: 0
   updateRotationX: 1
@@ -161,8 +163,8 @@ MonoBehaviour:
   enableAimAssistX: 1
   enableAimAssistY: 1
   aimAssistRadius: 0.5
-  aimAssistMinDistanceFromFollowingTarget: 3
-  aimAssistDistance: 3
+  aimAssistMinDistanceFromFollowingTarget: 6
+  aimAssistDistance: 6
   aimAssistLayerMask:
     serializedVersion: 2
     m_Bits: 524288
@@ -324,8 +326,85 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_EventMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4194304
   m_MaxRayIntersections: 0
+--- !u!114 &3931893718475287689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278824955568960}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeTrigger: {fileID: 4983335410072664}
+  volumeLayer:
+    serializedVersion: 2
+    m_Bits: 4194304
+  stopNaNPropagation: 1
+  finalBlitToCameraTarget: 0
+  antialiasingMode: 0
+  temporalAntialiasing:
+    jitterSpread: 0.75
+    sharpness: 0.25
+    stationaryBlending: 0.95
+    motionBlending: 0.85
+  subpixelMorphologicalAntialiasing:
+    quality: 2
+  fastApproximateAntialiasing:
+    fastMode: 0
+    keepAlpha: 0
+  fog:
+    enabled: 1
+    excludeSkybox: 1
+  debugLayer:
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
+    overlaySettings:
+      linearDepth: 0
+      motionColorIntensity: 4
+      motionGridSize: 64
+      colorBlindnessType: 0
+      colorBlindnessStrength: 1
+  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
+  breakBeforeColorGrading: 0
+  m_BeforeTransparentBundles: []
+  m_BeforeStackBundles: []
+  m_AfterStackBundles: []
+--- !u!114 &5575366241628854235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278824955568960}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedProfile: {fileID: 11400000, guid: 82eef31f2d1c74245b651218854b625e, type: 2}
+  isGlobal: 1
+  blendDistance: 0
+  weight: 1
+  priority: 0
 --- !u!1 &1875850924656240
 GameObject:
   m_ObjectHideFlags: 0
@@ -337,7 +416,7 @@ GameObject:
   - component: {fileID: 4108299210592674}
   - component: {fileID: 20441234044108766}
   - component: {fileID: 114725999672488462}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: CharacterUICamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -427,7 +506,7 @@ GameObject:
   - component: {fileID: 2617551375208009508}
   - component: {fileID: 1748056810828249363}
   - component: {fileID: 6285369947413154182}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: NpcCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -480,7 +559,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 8387383
+    m_Bits: 25164599
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0

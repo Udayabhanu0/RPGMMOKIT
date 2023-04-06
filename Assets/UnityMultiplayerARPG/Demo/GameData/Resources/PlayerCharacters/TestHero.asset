@@ -129,9 +129,9 @@ MonoBehaviour:
     amount: 1
   - item: {fileID: 11400000, guid: 93c389fe9d40638469bffd9de26d31ba, type: 2}
     amount: 1
-  startMap: {fileID: 11400000, guid: 81e4730004ac7574c8d1e3696814835f, type: 2}
+  startMap: {fileID: 11400000, guid: 070dc6c4566210f43899f1ff8f81a0e2, type: 2}
   useOverrideStartPosition: 1
-  overrideStartPosition: {x: 734.1645, y: 78.5986, z: 1104.958}
+  overrideStartPosition: {x: 0, y: 0, z: 0}
   useOverrideStartRotation: 0
   overrideStartRotation: {x: 0, y: 0, z: 0}
   startPointsByCondition: []

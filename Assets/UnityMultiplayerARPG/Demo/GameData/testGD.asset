@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446bd54be72e9c14a9d92aae35e50af7, type: 3}
+  m_Name: testGD
+  m_EditorClassIdentifier: 
+  playerCharacterEntities:
+  - {fileID: 2500881847153476489, guid: f940cb5291577ba448c013791ac2a4bb, type: 3}
+  - {fileID: 5606535863056343457, guid: a400856da58a1454cad8206231dbc2e6, type: 3}
+  - {fileID: 6975732427323998725, guid: 9ae788653c6f20b429210a62ae4adda6, type: 3}
+  - {fileID: 6975732427323998725, guid: 9051b40c36aeb3c4b9ccb649e1f211fd, type: 3}
+  monsterCharacterEntities: []
+  vehicleEntities: []
+  otherNetworkObjects: []
+  attributes:
+  - {fileID: 11400000, guid: cf50e3647cfae0e44b683163d2171277, type: 2}
+  - {fileID: 11400000, guid: cd3d2fb4f3c67fd4dbba3bd0ccd0095e, type: 2}
+  - {fileID: 11400000, guid: 0e223af20738b88419c22a1a0401a21b, type: 2}
+  - {fileID: 11400000, guid: c7e3824f99bb4bc43b9566210f8d02f5, type: 2}
+  currencies:
+  - {fileID: 11400000, guid: 02d40019f7430f0459286df57e6b450b, type: 2}
+  damageElements:
+  - {fileID: 11400000, guid: 3afa55aee773f47438e6f7f3a03cd0b9, type: 2}
+  - {fileID: 11400000, guid: 02b1c5248ea9f3242aa338970d626d27, type: 2}
+  - {fileID: 11400000, guid: 84a7ad1ad281a3a47918fcb1f180d365, type: 2}
+  - {fileID: 11400000, guid: 722cfdf3e0a6c8f47bd849a2d998e915, type: 2}
+  items: []
+  itemCraftFormulas:
+  - {fileID: 11400000, guid: 4fa8022457399b045aa759a2adf444be, type: 2}
+  - {fileID: 11400000, guid: f3bf4536f24588043986c153c1e7e430, type: 2}
+  - {fileID: 11400000, guid: 5f461e1d6e375f040a9c8af011b60a35, type: 2}
+  - {fileID: 11400000, guid: 7bb80ca6756591c47a65cd4ad90bb062, type: 2}
+  - {fileID: 11400000, guid: 927cadfbf8222a34489efa7030404f87, type: 2}
+  - {fileID: 11400000, guid: 67881deef9cf94347b6398e2e608db76, type: 2}
+  - {fileID: 11400000, guid: c4d96689a9e67f44b95b15bd00001689, type: 2}
+  - {fileID: 11400000, guid: 5c36c65e49595b04da8838d1ee58e438, type: 2}
+  - {fileID: 11400000, guid: f6da8d83d4eb46c47a37519bdb0a01bc, type: 2}
+  - {fileID: 11400000, guid: 5d81a3e67ae68304c93a6f9e9447899b, type: 2}
+  armorTypes:
+  - {fileID: 11400000, guid: 0253737f3a4bc994cb0be8d992b59240, type: 2}
+  - {fileID: 11400000, guid: bea17275f6d55cb4b9e00d61decfaf95, type: 2}
+  - {fileID: 11400000, guid: a1143a42e9d328c4988c7b1b33b11451, type: 2}
+  - {fileID: 11400000, guid: 926f1d3f76315644784baae8e6482caf, type: 2}
+  - {fileID: 11400000, guid: 745bc973ccf3f5640af5285026a87d5d, type: 2}
+  weaponTypes:
+  - {fileID: 11400000, guid: dea0ff090cc71dd41ad5154120895633, type: 2}
+  - {fileID: 11400000, guid: d433f880a1c9d6149bcbf3b5676ea6a0, type: 2}
+  - {fileID: 11400000, guid: a10c36dadc50a1e48881f48483f2ccc6, type: 2}
+  - {fileID: 11400000, guid: 46d5e8d1f00917a4da03a91092474bf4, type: 2}
+  - {fileID: 11400000, guid: a33855f9c9112894fbf4fb803ab001da, type: 2}
+  - {fileID: 11400000, guid: 68fba38efbfdced49a5d1e2ae95c0026, type: 2}
+  - {fileID: 11400000, guid: 27dd45bfaa340904abb135858ed2f965, type: 2}
+  - {fileID: 11400000, guid: 18b8853fc2026de47943b7cd985477d8, type: 2}
+  - {fileID: 11400000, guid: 3f99c4876c3b1b04b9dc8b493565772a, type: 2}
+  - {fileID: 11400000, guid: f8c1eae7f66f9bb46a41403e61cd87cb, type: 2}
+  ammoTypes:
+  - {fileID: 11400000, guid: 40442b933cd745c44a9c045c9db0d0c0, type: 2}
+  - {fileID: 11400000, guid: f5f6fa0bd208c2b4ab8b60ad89fee9e2, type: 2}
+  - {fileID: 11400000, guid: cde2a2492382cc6429a746d5c2e64769, type: 2}
+  - {fileID: 11400000, guid: d77b2a3b114e1814e86ff669bf73354a, type: 2}
+  skills:
+  - {fileID: 11400000, guid: e51e32bb6c31b564a9e211e7b65c82ec, type: 2}
+  - {fileID: 11400000, guid: 2da121bb20bbc844bafd830dcb439578, type: 2}
+  - {fileID: 11400000, guid: 08cbe7ac27d116f4ba33a0a33ced973d, type: 2}
+  - {fileID: 11400000, guid: 62050ee15b839a04080e8d1764fc4737, type: 2}
+  - {fileID: 11400000, guid: 3d6a6428fdcc7354aa8334e92cb5405b, type: 2}
+  - {fileID: 11400000, guid: b9f63b3b2f7be634e9493c7acfb8ef54, type: 2}
+  - {fileID: 11400000, guid: 417c6b4c5515bd84a9bee4c80ea404fa, type: 2}
+  - {fileID: 11400000, guid: 342c2acc88ca3f34ab00cf7f43775edf, type: 2}
+  - {fileID: 11400000, guid: aa4fffff388c1634397b4bdcdb18a4fa, type: 2}
+  - {fileID: 11400000, guid: 605ecc318b95dca4ebca3d9e71185878, type: 2}
+  - {fileID: 11400000, guid: d55d8bfb45f9c574d9120b6ffcd66e3c, type: 2}
+  - {fileID: 11400000, guid: ab5e0f2076634794394a8a28275204c2, type: 2}
+  - {fileID: 11400000, guid: aa319f1dfe3afb449b69aa255c39a69b, type: 2}
+  - {fileID: 11400000, guid: 95b0099193de44e4d81bc5ebadffb4ba, type: 2}
+  - {fileID: 11400000, guid: c0bba1d7b0967e3428404a9fc3211a7b, type: 2}
+  - {fileID: 11400000, guid: 25f18d3131d816146b890611d9123df4, type: 2}
+  - {fileID: 11400000, guid: 9336d482a0ee6ec42a3cc5d855bf7105, type: 2}
+  - {fileID: 11400000, guid: 7082a6e38d055b6488ab9c67d95d3907, type: 2}
+  - {fileID: 11400000, guid: 00144a2dd7250bb4ab60d49c66cc48f0, type: 2}
+  - {fileID: 11400000, guid: dda02c5321170454e9c7eaab45f1a277, type: 2}
+  - {fileID: 11400000, guid: 558b16358ddfa6346b5e5e6211155da6, type: 2}
+  - {fileID: 11400000, guid: 401cce43094968c4bbca0024b52a4644, type: 2}
+  - {fileID: 11400000, guid: 494792636296b624fbf4ff17294217c5, type: 2}
+  playerIcons: []
+  playerFrames: []
+  playerTitles: []
+  guildSkills:
+  - {fileID: 11400000, guid: d3875bef37ed4aa4dba86b08069b5a8f, type: 2}
+  - {fileID: 11400000, guid: 56999d63a8734bd4f8b19e254ecfbeae, type: 2}
+  - {fileID: 11400000, guid: d4a2fc417a247c74f9db5f31ab7d2b75, type: 2}
+  - {fileID: 11400000, guid: fe3307ecb7dbe3142a73616746b84e59, type: 2}
+  guildIcons:
+  - {fileID: 11400000, guid: 360548c71c67e4640acd178f6a25af4b, type: 2}
+  - {fileID: 11400000, guid: 63b3670db8d1d954bb617bd260bb336d, type: 2}
+  - {fileID: 11400000, guid: b8b72091001ba8e4682eefb74492ff58, type: 2}
+  - {fileID: 11400000, guid: 5773042d84a571245b53a55497f25c87, type: 2}
+  - {fileID: 11400000, guid: f9e1fdf6436b6324086ae746ea8daf81, type: 2}
+  - {fileID: 11400000, guid: ac04beb40ca9c70478d208fcfc254bea, type: 2}
+  statusEffects: []
+  playerCharacters:
+  - {fileID: 11400000, guid: f604d60cd5eeb76468544d9e839dd859, type: 2}
+  - {fileID: 11400000, guid: 0122f68aff58f2a4e995208bf67f18ba, type: 2}
+  - {fileID: 11400000, guid: f924bc5e901d46141bb3c3ca9b6ef27a, type: 2}
+  - {fileID: 11400000, guid: 8c31218a0e7c7604ea751e1a56a13a76, type: 2}
+  monsterCharacters: []
+  harvestables:
+  - {fileID: 11400000, guid: 1fdbfbd15c3ab674bba487c183dfb99d, type: 2}
+  - {fileID: 11400000, guid: 31b3c9ca2358f3748bbacd9bea3ad525, type: 2}
+  mapInfos:
+  - {fileID: 11400000, guid: 070dc6c4566210f43899f1ff8f81a0e2, type: 2}
+  - {fileID: 11400000, guid: 48a6e9a92d913a64fa58be9019d90abf, type: 2}
+  - {fileID: 11400000, guid: 81e4730004ac7574c8d1e3696814835f, type: 2}
+  - {fileID: 11400000, guid: 404cd0aa8586a3f48b648a2a738c96e9, type: 2}
+  quests:
+  - {fileID: 11400000, guid: 35af53733329bea43ba4a13eab140778, type: 2}
+  - {fileID: 11400000, guid: b07c2f59514e7aa45a8005d227e79954, type: 2}
+  - {fileID: 11400000, guid: 4000f50ad41cb17419c5de53509949d8, type: 2}
+  - {fileID: 11400000, guid: 641ebba1938f5d246b29e435c4772842, type: 2}
+  factions:
+  - {fileID: 11400000, guid: b098152a1e9a1564bbe41cad1f3baf16, type: 2}
+  - {fileID: 11400000, guid: 1b2b3f830f1dac4458bf9a6c347f5248, type: 2}
+  - {fileID: 11400000, guid: 150c22002ef3a7d4786355f0cd52ffe4, type: 2}
+  gachas:
+  - {fileID: 11400000, guid: 4831f0e790450cf4daa51f6d2e2f171d, type: 2}
+  - {fileID: 11400000, guid: 0131e75bfc7a28d4ea844b2ea1afda56, type: 2}
+  attributeBundleName: attribute
+  currencyBundleName: currency
+  damageElementBundleName: damageElement
+  characterBundleName: character
+  itemBundleName: item
+  mapInfoBundleName: map
+  sceneBundleName: scene
+  skillBundleName: skill
+  playerIconBundleName: playerIcon
+  playerFrameBundleName: playerFrame
+  playerTitleBundleName: playerTitle
+  guildSkillBundleName: guildSkill
+  guildIconBundleName: guildIcon
+  questBundleName: quest
+  factionBundleName: faction
+  gachaBundleName: gacha
+  setNameForUnnamedAssetsOnly: 1
